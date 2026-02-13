@@ -1,0 +1,63 @@
+installtion of GIT in windows and macos : 
+
+
+
+installation of UV in terminal:
+
+  uv --version
+
+macOS / Linux:  curl  -LsSf https://astral.sh/uv/install.sh | sh
+Windows (PowerShell): powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+
+installation of git in MAC OS and windows 
+
+macOS Installation
+1. Open Terminal: Press Cmd + Space, type Terminal, press Enter.
+2. Install Git: Type: git --version and press Enter. Click Install if prompted.
+3. Verify Installation: Type: git --version
+4. Configure Name and Email (one-time setup):
+git config --global user.name "Your Name"
+git config --global user.email "you@email.com"
+5. Test Git:
+git init test
+cd test
+git status
+
+Windows Installation
+1. Download Git: Visit https://git-scm.com/download/win
+2. Run Installer: Open the file and click Next until Install.
+3. Open Git Bash: Start Menu > Search Git Bash > Open.
+4. Verify Installation: Type: git --version
+5. Configure Name and Email (one-time setup):
+git config --global user.name "Your Name"
+git config --global user.email "you@email.com"
+6. Test Git:
+git init test
+cd test
+git status
+
+How to Create an OpenAI API Key
+This guide explains how to generate and use an OpenAI API key for development and AI tools.
+Step 1: Open OpenAI Platform
+Open your browser and go to: https://platform.openai.com
+Step 2: Sign In
+Log in using your Google account, Microsoft account, or email and password.
+Step 3: Go to API Keys Page
+After login, click your profile icon in the top-right corner.
+Select 'View API keys' from the menu.
+Step 4: Create a New API Key
+Click the button: 'Create new secret key'.
+Copy the generated key and store it securely.
+Step 5: Save Your API Key
+Important: You will not be able to view the full key again.
+Save it in a password manager or secure file.
+Step 6: Set API Key in Your System
+For macOS / Linux (Terminal):
+export OPENAI_API_KEY="your_api_key_here"
+For Windows (PowerShell):
+setx OPENAI_API_KEY "your_api_key_here"
+Step 7: Test Your API Key
+Use your API key in your application or tool to verify it works correctly.
+
+

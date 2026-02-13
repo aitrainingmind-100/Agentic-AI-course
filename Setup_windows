@@ -1,0 +1,190 @@
+REREQUISITE:
+Windows 10 or 11 with Winget available.
+
+Check Winget:
+
+winget --version
+
+------------------------------------
+
+STEP 1: Install Python 3.10
+
+winget install --id Python.Python.3.10 --source winget
+
+------------------------------------
+
+STEP 2: Restart terminal
+
+Close and reopen PowerShell or Command Prompt.
+
+------------------------------------
+
+STEP 3: Verify Python installation
+
+python --version
+
+Expected output:
+Python 3.10.x
+
+------------------------------------
+
+STEP 4: Verify pip installation
+
+pip --version
+
+If pip is missing:
+
+python -m ensurepip --upgrade
+
+------------------------------------
+
+STEP 5: Upgrade pip
+
+python -m pip install --upgrade pip
+
+------------------------------------
+
+NOT NEEDED : STEP 6: Create a virtual environment
+
+python -m venv genai-env
+genai-env\Scripts\activate
+
+------------------------------------
+
+STEP 7: Test pip
+
+pip install requests
+python -c "import requests; print('pip works')"
+
+
+CHECK 
+
+
+pip install numpy==1.26.4
+pip install faiss-cpu==1.7.4
+
+------------------------------------
+
+FAISS SANITY TEST
+
+python
+
+import faiss
+import numpy as np
+
+x = np.random.rand(100, 128).astype("float32")
+index = faiss.IndexFlatL2(128)
+index.add(x)
+
+d, i = index.search(x[:1], 5)
+print(i)
+
+---SET UP DOCKER 
+
+winget install Docker.DockerDesktop
+docker --version
+
+
+
+--SET UP OLLAMA SERVER 
+
+winget install Ollama.Ollama
+
+docker run -d \
+  --name ollama \
+  -p 11434:11434 \
+  ollama/ollama
+
+-- for running llama3 in local 
+ollama pull llama3
+ollama serve
+
+-- for running llama3 in docker 
+docker exec -it ollama ollama pull llama3
+docker exec -it ollama ollama run llama3
+
+
+-SET Up QDrant 
+
+docker pull qdrant/qdrant
+docker images | grep qdrant
+
+--RUN Qdrant 
+
+docker run -d \
+  --name qdrant \
+  -p 6333:6333 \
+  -v qdrant_storage:/qdrant/storage \
+  qdrant/qdrant
+
+docker ps
+
+curl http://localhost:6333/health
+
+STOP or REMOVE Qdrant as needed 
+docker stop qdrant
+docker rm qdrant
+
+
+--SET UP Chroma DB 
+
+docker pull chromadb/chroma
+docker images | grep chroma
+
+--RUN CHROMA DB
+
+docker run -d \
+  --name chromadb \
+  -p 8000:8000 \
+  -v chroma_data:/chroma/chroma \
+  chromadb/chroma
+
+  docker ps
+
+  curl http://localhost:8000/api/v1/heartbeat
+
+  - REMOVE OR STOP CHROMA DB IF NEEDED 
+
+docker stop chromadb
+docker rm chromadb
+
+
+--SET UP POSTGRES SQL 
+
+docker pull postgres:15
+docker images | grep postgres
+
+-- RUN POSTGRES SQL 
+
+docker run -d \
+  --name postgres \
+  -p 5432:5432 \
+  -e POSTGRES_USER=admin \
+  -e POSTGRES_PASSWORD=admin123 \
+  -e POSTGRES_DB=genai_db \
+  -v postgres_data:/var/lib/postgresql/data \
+  postgres:15
+
+
+ docker ps
+ docker logs postgres
+
+--- CONNECT TO POSTGRES 
+
+ docker exec -it postgres psql -U admin -d genai_db
+
+-- REMOVE OR STOP POSTGRES AS NEEDED 
+
+docker stop postgres
+docker rm postgres
+
+
+---HUGGING FACE 
+
+Go to  https://huggingface.co/settings/tokens
+	1.	Click New token
+	2.	Choose:
+	3.	Read (enough for inference)
+	4.	Copy the token (starts with hf_)
+
+setx HUGGINGFACEHUB_API_TOKEN hf_xxxxxxxxx
