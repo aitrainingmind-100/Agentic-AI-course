@@ -1,0 +1,22 @@
+[
+  {
+    "role": "system",
+    "content": "You are a helpful AI assistant."
+  },
+  {
+    "role": "user",
+    "content": "weather"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure \u2014 what location would you like the weather for, and what kind of info do you want (current conditions, hourly forecast, 7-day forecast, severe alerts)? Also tell me your preferred units (\u00b0C or \u00b0F) or ZIP/postal code if you have one."
+  },
+  {
+    "role": "user",
+    "content": "55446"
+  },
+  {
+    "role": "assistant",
+    "content": "Got it \u2014 55446. What kind of weather info would you like?\n\n- Current conditions now\n- Hourly forecast (next 24 hours)\n- 7-day forecast\n- Severe weather alerts\n- Climate normals / typical seasonal summary\n\nAlso tell me your preferred units (\u00b0F or \u00b0C).\n\nOne note: I don\u2019t have live internet access to pull real-time forecasts. If you want an up-to-the-minute forecast, I can either\n- Tell you exactly where to get it (NOAA/NWS, Weather.com, your phone\u2019s weather app) and how to read alerts, or\n- Interpret a forecast you paste here, or\n- Provide a typical seasonal summary and a plausible example forecast for planning purposes.\n\nWhich would you like?"
+  }
+]
