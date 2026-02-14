@@ -7,8 +7,10 @@ installation of UV in terminal:
   uv --version
 
 macOS / Linux:  curl  -LsSf https://astral.sh/uv/install.sh | sh
-Windows (PowerShell): powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+Windows (PowerShell): 
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
+wget -qO- https://astral.sh/uv/install.sh | sh
 
 installation of git in MAC OS and windows 
 
