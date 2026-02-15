@@ -86,7 +86,7 @@ rag_prompt = PromptTemplate(
 # --------------------------------------------------
 # Sidebar – PDF Upload
 # --------------------------------------------------
-st.sidebar.header("📥 Upload PDF")
+st.sidebar.header("Upload PDF")
 uploaded_file = st.sidebar.file_uploader("Upload a PDF", type=["pdf"])
 
 if uploaded_file:
@@ -147,5 +147,5 @@ if st.button("Ask") and question:
         st.markdown("### 🤖 Answer")
         st.write(response.content)
 
-        with st.expander("🔎 Retrieved Context"):
+        with st.expander("Retrieved Context"):
             st.write(context)
