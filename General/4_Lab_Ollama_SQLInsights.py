@@ -47,6 +47,8 @@ Include:
 - Key insights
 - Notable values
 - Trends or patterns
+- Anamolies 
+- Data Qualities 
 """
 
     # ---- Option 1: Use Local Llama (Ollama) ----
