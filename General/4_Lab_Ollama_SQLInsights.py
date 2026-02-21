@@ -1,3 +1,8 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 import os
 import streamlit as st
 import pandas as pd
@@ -12,7 +17,7 @@ DB_USER = "myuser"
 DB_PASSWORD = "mypassword"
 
 # Prefer secrets/env over hardcoding
-OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY", None) or os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
 
 

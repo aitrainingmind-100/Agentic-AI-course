@@ -53,6 +53,8 @@ dependencies = [
     "wikipedia>=1.4.0",
     "youtube-transcript-api>=1.2.4",
     "mcp-use>=1.6.0",
+    "ddgs>=9.10.0",
+    "agno>=2.5.2",
 ]
 
 [dependency-groups]

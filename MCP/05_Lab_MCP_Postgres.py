@@ -39,7 +39,7 @@ async def main():
             print("\nRunning SQL query...")
             result = await session.call_tool(
                 tool_name,
-                {"sql": "SELECT * from users"}
+                {"sql": "SELECT * FROM users LIMIT 5"}
             )
 
             print("\nQuery Result:")
