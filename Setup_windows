@@ -107,7 +107,7 @@ docker exec -it ollama ollama run llama3
 -SET Up QDrant 
 
 docker pull qdrant/qdrant
-docker images | grep qdrant
+docker images 
 
 --RUN Qdrant 
 
@@ -119,7 +119,7 @@ docker run -d \
 
 docker ps
 
-curl http://localhost:6333/health
+curl http://localhost:6333
 
 STOP or REMOVE Qdrant as needed 
 docker stop qdrant
@@ -129,7 +129,7 @@ docker rm qdrant
 --SET UP Chroma DB 
 
 docker pull chromadb/chroma
-docker images | grep chroma
+docker images 
 
 --RUN CHROMA DB
 
@@ -152,7 +152,7 @@ docker rm chromadb
 --SET UP POSTGRES SQL 
 
 docker pull postgres:15
-docker images | grep postgres
+docker images 
 
 -- RUN POSTGRES SQL 
 

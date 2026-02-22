@@ -132,7 +132,7 @@ docker run -d \
 
 docker ps
 
-curl http://localhost:6333/health
+curl http://localhost:6333
 
 STOP or REMOVE Qdrant as needed 
 docker stop qdrant
