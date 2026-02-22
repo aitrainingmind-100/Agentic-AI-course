@@ -55,6 +55,9 @@ dependencies = [
     "mcp-use>=1.6.0",
     "ddgs>=9.10.0",
     "agno>=2.5.2",
+    "run>=0.3",
+    "langchain-agent>=0.1.1",
+    "langchain-mcp-adapters>=0.2.1",
 ]
 
 [dependency-groups]

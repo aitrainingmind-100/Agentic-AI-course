@@ -17,11 +17,13 @@ dependencies = [
     { name = "httpx" },
     { name = "ipywidgets" },
     { name = "langchain" },
+    { name = "langchain-agent" },
     { name = "langchain-anthropic" },
     { name = "langchain-community" },
     { name = "langchain-core" },
     { name = "langchain-experimental" },
     { name = "langchain-huggingface" },
+    { name = "langchain-mcp-adapters" },
     { name = "langchain-openai" },
     { name = "langchain-qdrant" },
     { name = "langfuse" },
@@ -47,6 +49,7 @@ dependencies = [
     { name = "python-dotenv" },
     { name = "qdrant-client" },
     { name = "requests" },
+    { name = "run" },
     { name = "semantic-kernel" },
     { name = "sendgrid" },
     { name = "sentence-transformers" },
@@ -75,11 +78,13 @@ requires-dist = [
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "ipywidgets", specifier = ">=8.1.5" },
     { name = "langchain", specifier = ">=1.2.10" },
+    { name = "langchain-agent", specifier = ">=0.1.1" },
     { name = "langchain-anthropic", specifier = ">=0.3.10" },
     { name = "langchain-community", specifier = ">=0.3.20" },
     { name = "langchain-core", specifier = ">=1.2.12" },
     { name = "langchain-experimental", specifier = ">=0.3.4" },
     { name = "langchain-huggingface", specifier = ">=1.2.0" },
+    { name = "langchain-mcp-adapters", specifier = ">=0.2.1" },
     { name = "langchain-openai", specifier = ">=0.3.9" },
     { name = "langchain-qdrant", specifier = ">=1.1.0" },
     { name = "langfuse", specifier = ">=3.14.1" },
@@ -105,6 +110,7 @@ requires-dist = [
     { name = "python-dotenv", specifier = ">=1.0.1" },
     { name = "qdrant-client", specifier = ">=1.16.2" },
     { name = "requests", specifier = ">=2.32.3" },
+    { name = "run", specifier = ">=0.3" },
     { name = "semantic-kernel", specifier = ">=1.25.0" },
     { name = "sendgrid", specifier = ">=6.11.0" },
     { name = "sentence-transformers", specifier = ">=5.2.2" },
@@ -1548,6 +1554,20 @@ wheels = [
 ]
 
 [[package]]
+name = "langchain-agent"
+version = "0.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain" },
+    { name = "langchain-ollama" },
+    { name = "python-dotenv" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0b/b9/09ed3dad6924f8913db3c78d3e1cdbaf46fe0cecdffd9a76e401d68077ec/langchain_agent-0.1.1.tar.gz", hash = "sha256:06fee2853428ffebf41c6dd389989f8106246e5a58d4d3cccc3db7f4257dae95", size = 127139, upload-time = "2025-11-06T14:44:14.868Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ee/10/cd9a2383b7cee8d6d76fcb21b2203b1fa6a42ed7bfd692e8f58899fad55a/langchain_agent-0.1.1-py3-none-any.whl", hash = "sha256:34b0a2d1bbdaffacf3160e100cf66e8be0bfa16fc0370ce27a0453cee21b96c5", size = 11231, upload-time = "2025-11-06T14:44:11.712Z" },
+]
+
+[[package]]
 name = "langchain-anthropic"
 version = "1.3.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1646,6 +1666,33 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/67/2c/4fddeb3387baa05b6a95870ad514f649cafb46e0c0ef9caf949d974e55d2/langchain_huggingface-1.2.0.tar.gz", hash = "sha256:18a2d79955271261fb245b233fea6aa29625576e841f2b4f5bee41e51cc70949", size = 255602, upload-time = "2025-12-12T22:19:51.021Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/81/ce/502157ef7390a31cc67e5873ad66e737a25d1d33fcf6936e5c9a0a451409/langchain_huggingface-1.2.0-py3-none-any.whl", hash = "sha256:0ff6a17d3eb36ce2304f446e3285c74b59358703e8f7916c15bfcf9ec7b57bf1", size = 30671, upload-time = "2025-12-12T22:19:50.023Z" },
+]
+
+[[package]]
+name = "langchain-mcp-adapters"
+version = "0.2.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "mcp" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d9/52/cebf0ef5b1acef6cbc63d671171d43af70f12d19f55577909c7afa79fb6e/langchain_mcp_adapters-0.2.1.tar.gz", hash = "sha256:58e64c44e8df29ca7eb3b656cf8c9931ef64386534d7ca261982e3bdc63f3176", size = 36394, upload-time = "2025-12-09T16:28:38.98Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/03/81/b2479eb26861ab36be851026d004b2d391d789b7856e44c272b12828ece0/langchain_mcp_adapters-0.2.1-py3-none-any.whl", hash = "sha256:9f96ad4c64230f6757297fec06fde19d772c99dbdfbca987f7b7cfd51ff77240", size = 22708, upload-time = "2025-12-09T16:28:37.877Z" },
+]
+
+[[package]]
+name = "langchain-ollama"
+version = "1.0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "ollama" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/73/51/72cd04d74278f3575f921084f34280e2f837211dc008c9671c268c578afe/langchain_ollama-1.0.1.tar.gz", hash = "sha256:e37880c2f41cdb0895e863b1cfd0c2c840a117868b3f32e44fef42569e367443", size = 153850, upload-time = "2025-12-12T21:48:28.68Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e3/46/f2907da16dc5a5a6c679f83b7de21176178afad8d2ca635a581429580ef6/langchain_ollama-1.0.1-py3-none-any.whl", hash = "sha256:37eb939a4718a0255fe31e19fbb0def044746c717b01b97d397606ebc3e9b440", size = 29207, upload-time = "2025-12-12T21:48:27.832Z" },
 ]
 
 [[package]]
@@ -3273,6 +3320,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/c7/3b/ebda527b56beb90cb7652cb1c7e4f91f48649fbcd8d2eb2fb6e77cd3329b/ruamel_yaml-0.19.1.tar.gz", hash = "sha256:53eb66cd27849eff968ebf8f0bf61f46cdac2da1d1f3576dd4ccee9b25c31993", size = 142709, upload-time = "2026-01-02T16:50:31.84Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b8/0c/51f6841f1d84f404f92463fc2b1ba0da357ca1e3db6b7fbda26956c3b82a/ruamel_yaml-0.19.1-py3-none-any.whl", hash = "sha256:27592957fedf6e0b62f281e96effd28043345e0e66001f97683aa9a40c667c93", size = 118102, upload-time = "2026-01-02T16:50:29.201Z" },
+]
+
+[[package]]
+name = "run"
+version = "0.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/7b/dd/be134411d3f2bf7e216e37d7136ed6bae74f06dc1683d929c5ca9bfcdb3c/run-0.3.tar.gz", hash = "sha256:4fedf927ccee02e797912af574d31a6d394073716db6864beb2bb75e05df3f36", size = 4412, upload-time = "2025-12-09T10:18:51.283Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e1/5d/f831e942a2ed684564bd099ac22f5e8ae0e9cbf45814f471565248ec875b/run-0.3-py3-none-any.whl", hash = "sha256:93600874ef1f7de3b178efe6607db32afb4ff45acdf640c76bbed851f6494a60", size = 5143, upload-time = "2025-12-09T10:18:50.431Z" },
 ]
 
 [[package]]
