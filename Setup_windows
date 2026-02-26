@@ -188,3 +188,10 @@ Go to  https://huggingface.co/settings/tokens
 	4.	Copy the token (starts with hf_)
 
 setx HUGGINGFACEHUB_API_TOKEN hf_xxxxxxxxx
+
+
+-- GOOGLE ADK setup 
+
+adk create folder_name/agent_name 
+
+adk run agent_name 
