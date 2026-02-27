@@ -1,0 +1,837 @@
+{
+  "eval_set_result_id": "industry_expert_test_1772157664.8286679",
+  "eval_set_result_name": "industry_expert_test_1772157664.8286679",
+  "eval_set_id": "test",
+  "eval_case_results": [
+    {
+      "eval_set_file": "test",
+      "eval_set_id": "test",
+      "eval_id": "cased2849d",
+      "final_eval_status": 2,
+      "eval_metric_results": null,
+      "overall_eval_metric_results": [
+        {
+          "metric_name": "tool_trajectory_avg_score",
+          "threshold": 1.0,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 1.0,
+          "eval_status": 1,
+          "details": {
+            "rubric_scores": null
+          }
+        },
+        {
+          "metric_name": "response_match_score",
+          "threshold": 1.0,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 0.6132700634818913,
+          "eval_status": 2,
+          "details": {
+            "rubric_scores": null
+          }
+        }
+      ],
+      "eval_metric_result_per_invocation": [
+        {
+          "actual_invocation": {
+            "invocation_id": "e-96793788-faf2-4299-9aac-0e7ba9bec70c",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about financial serviecs industry",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "The financial services industry is a vast and vital sector of the global economy. It encompasses a wide range of organizations and professionals that manage money, credit, investments, and other financial assets for individuals, businesses, and governments. Essentially, it's the engine that facilitates the flow of money and capital within an economy.\n\nHere's a breakdown of its key aspects:\n\n### 1. What it is:\nAt its core, the financial services industry helps people and organizations manage their financial resources, allocate capital, mitigate risk, and make payments. It acts as an intermediary, connecting those who have surplus funds (savers/investors) with those who need funds (borrowers/companies).\n\n### 2. Key Sectors and Segments:\n\n*   **Banking:**\n    *   **Commercial Banking:** Deals with individuals and businesses, offering services like checking/savings accounts, loans (mortgages, business loans), credit cards, and payment processing. Examples: JPMorgan Chase, HSBC, Bank of America.\n    *   **Investment Banking:** Focuses on corporate clients, providing services like mergers & acquisitions (M&A) advisory, underwriting new stock and bond issues (capital raising), and proprietary trading. Examples: Goldman Sachs, Morgan Stanley.\n    *   **Credit Unions:** Member-owned financial cooperatives that offer similar services to commercial banks, often with a focus on local communities.\n\n*   **Insurance:**\n    *   Provides protection against financial loss from various risks.\n    *   **Life Insurance:** Protects against financial loss due to death or disability.\n    *   **Property & Casualty Insurance:** Covers damage to property (e.g., home, auto) and liability claims.\n    *   **Health Insurance:** Covers medical expenses.\n    *   Examples: Allianz, AXA, Berkshire Hathaway, Ping An Insurance.\n\n*   **Investment Management (Asset Management):**\n    *   Manages investment portfolios for individuals, institutions (pension funds, endowments), and corporations.\n    *   Includes mutual funds, hedge funds, private equity firms, and wealth management services.\n    *   Examples: BlackRock, Vanguard, Fidelity, State Street.\n\n*   **Brokerage:**\n    *   Facilitates the buying and selling of financial securities (stocks, bonds, mutual funds) for clients.\n    *   Can be full-service or discount/online brokers.\n    *   Examples: Charles Schwab, Fidelity (also investment management), Robinhood.\n\n*   **Financial Planning & Wealth Management:**\n    *   Advisors who help individuals and families set financial goals, plan for retirement, manage investments, and handle estate planning.\n\n*   **Payment Services:**\n    *   Companies that facilitate electronic transactions, credit card processing, and digital payments.\n    *   Examples: Visa, Mastercard, PayPal, Stripe.\n\n*   **Fintech (Financial Technology):**\n    *   A rapidly growing area using technology to improve and automate financial services. This can span across all sectors, introducing new ways of banking, investing, lending, and making payments (e.g., challenger banks, robo-advisors, blockchain-based services).\n\n### 3. Core Functions and Importance:\n\n*   **Capital Formation:** Channels savings into productive investments, essential for economic growth.\n*   **Risk Management:** Helps individuals and businesses mitigate financial risks through insurance, hedging, and diversification.\n*   **Payment Systems:** Enables efficient and secure transactions, crucial for commerce.\n*   **Wealth Creation & Preservation:** Helps individuals and institutions grow and protect their assets over time.\n*   **Economic Stability:** A well-regulated and efficient financial system contributes to overall economic stability.\n\n### 4. Key Trends and Challenges:\n\n*   **Digital Transformation & Fintech:** The rise of AI, machine learning, blockchain, and mobile technology is revolutionizing how financial services are delivered, leading to greater efficiency, personalized experiences, and new competitors.\n*   **Regulatory Scrutiny:** Post-2008 financial crisis, the industry faces intense regulation aimed at consumer protection, financial stability, and anti-money laundering (AML). Data privacy (e.g., GDPR, CCPA) is also a major concern.\n*   **Cybersecurity:** As financial services become more digital, they are increasingly vulnerable to cyberattacks, making robust security a top priority.\n*   **Sustainability & ESG:** Growing emphasis on Environmental, Social, and Governance (ESG) factors in investment decisions and corporate responsibility. Green finance and sustainable investing are expanding.\n*   **Competition:** Increased competition from traditional players, fintech startups, and even \"Big Tech\" companies entering the financial space.\n*   **Demographic Shifts:** Aging populations and changing generational wealth transfer patterns impact demand for different types of financial products and services.\n\nIn summary, the financial services industry is a complex, dynamic, and essential part of the modern world, constantly evolving to meet the financial needs of a global society.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": []
+            },
+            "creation_timestamp": 1772157652.097312,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "root_agent": {
+                  "name": "root_agent",
+                  "instructions": "Answer user questions to the best of your knowledge\n\nYou are an agent. Your internal name is \"root_agent\". The description about you is \"A helpful assistant for user questions.\".",
+                  "tool_declarations": []
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "e-4edff013-154e-4c8a-b6b6-73475cd4ac39",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about financial serviecs industry",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "The financial services industry is a **vast and complex sector** that encompasses a wide range of organizations dealing with the management of money, credit, and investments. Its primary role is to facilitate the flow of capital and manage financial risks, making it a critical backbone of modern economies worldwide.\n\nHere's a breakdown of its key aspects:\n\n### 1. Definition and Purpose\n\n*   **Definition:** It refers to the economic sector that provides a broad range of services to individuals, businesses, and governments to manage their finances.\n*   **Purpose:**\n    *   **Capital Formation:** Connects savers (those with surplus funds) with borrowers (those who need funds for investment).\n    *   **Risk Management:** Helps individuals and businesses mitigate financial risks through insurance and other products.\n    *   **Payment Systems:** Facilitates transactions and money transfers.\n    *   **Wealth Management:** Helps individuals and institutions grow and preserve their wealth.\n    *   **Economic Stability:** Provides liquidity and stability to markets.\n\n### 2. Key Segments of the Industry\n\nThe financial services industry is typically broken down into several major segments:\n\n*   **1. Banking:**\n    *   **Retail Banking:** Provides services to individual consumers (checking accounts, savings accounts, mortgages, personal loans, credit cards).\n    *   **Commercial Banking:** Caters to businesses (business loans, lines of credit, treasury management, payroll services).\n    *   **Investment Banking:** Helps corporations and governments raise capital (underwriting securities, mergers & acquisitions advisory, corporate restructuring).\n    *   **Private Banking:** Provides wealth management services to high-net-worth individuals.\n    *   **Central Banking:** (e.g., Federal Reserve, European Central Bank) Manages monetary policy, issues currency, regulates commercial banks.\n\n*   **2. Insurance:**\n    *   **Life Insurance:** Provides financial protection to beneficiaries upon the policyholder's death.\n    *   **Health Insurance:** Covers medical expenses.\n    *   **Property & Casualty (P&C) Insurance:** Covers damage to property (e.g., home, auto) and liability for injuries to others.\n    *   **Reinsurance:** Insurance for insurance companies.\n\n*   **3. Investment Management:**\n    *   **Asset Management:** Manages investment portfolios for individuals and institutions (pension funds, endowments) through mutual funds, ETFs, hedge funds, etc.\n    *   **Wealth Management:** Provides comprehensive financial planning, investment management, and other financial advice to individuals.\n    *   **Private Equity & Venture Capital:** Invests directly in private companies.\n\n*   **4. Securities and Brokerage:**\n    *   **Brokerage Firms:** Facilitate the buying and selling of stocks, bonds, and other securities for clients.\n    *   **Stock Exchanges:** Provide platforms for trading securities (e.g., NYSE, NASDAQ).\n\n*   **5. Financial Technology (FinTech):**\n    *   A rapidly growing segment that uses technology to improve and automate financial services. This includes mobile banking, online payments, robo-advisors, blockchain/cryptocurrencies, peer-to-peer lending, etc.\n\n*   **6. Other Specialized Services:**\n    *   **Accounting and Auditing:** While often a separate profession, it's integral to financial transparency and reporting.\n    *   **Credit Rating Agencies:** Assess the creditworthiness of borrowers (e.g., S&P, Moody's, Fitch).\n    *   **Payment Processors:** Companies that facilitate electronic payment transactions.\n\n### 3. Key Functions and Products\n\n*   **Lending & Borrowing:** Loans, mortgages, credit lines.\n*   **Saving & Investing:** Savings accounts, CDs, stocks, bonds, mutual funds.\n*   **Risk Mitigation:** Various insurance products.\n*   **Payments & Transactions:** Credit cards, debit cards, wire transfers, mobile payments.\n*   **Financial Advisory:** Wealth planning, retirement planning, investment advice.\n*   **Capital Raising:** Underwriting, IPOs, debt issuance.\n\n### 4. Regulatory Environment\n\nThe financial services industry is one of the most heavily regulated sectors due to its critical role in the economy and the potential for systemic risk. Regulations aim to:\n\n*   **Protect Consumers:** Prevent fraud and ensure fair practices.\n*   **Maintain Financial Stability:** Prevent bank failures and market crashes.\n*   **Combat Financial Crime:** Anti-money laundering (AML) and counter-terrorism financing (CTF).\n*   **Ensure Transparency:** Require public reporting and disclosure.\n*   **Promote Competition:** Prevent monopolies.\n\nRegulatory bodies vary by country (e.g., Federal Reserve, SEC, FDIC in the US; FCA in the UK).\n\n### 5. Key Trends and Challenges\n\n*   **Digital Transformation & FinTech:** Automation, AI, blockchain, mobile-first strategies are reshaping how services are delivered.\n*   **Increased Competition:** From FinTech startups, tech giants, and traditional players adapting to new models.\n*   **Regulatory Scrutiny:** Post-crisis regulations (e.g., Dodd-Frank, Basel III) have increased compliance costs and capital requirements.\n*   **Cybersecurity Threats:** Protecting sensitive financial data is paramount.\n*   **Changing Customer Expectations:** Demand for personalized, seamless, and instant services.\n*   **ESG (Environmental, Social, Governance) Factors:** Growing pressure to incorporate sustainability and ethical practices into investment and operations.\n*   **Globalization:** Increased interconnectedness of financial markets.\n*   **Economic Volatility:** Adapting to interest rate changes, inflation, and economic downturns.\n\nIn essence, the financial services industry is dynamic and essential, constantly evolving to meet the financial needs of a globalized, tech-driven world while navigating complex regulatory landscapes and emerging risks.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "tool_uses": [],
+              "tool_responses": [],
+              "intermediate_responses": []
+            },
+            "creation_timestamp": 1772157454.187683,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 1.0,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 1.0,
+              "eval_status": 1,
+              "details": {
+                "rubric_scores": null
+              }
+            },
+            {
+              "metric_name": "response_match_score",
+              "threshold": 1.0,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.6435568952524492,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null
+              }
+            }
+          ]
+        },
+        {
+          "actual_invocation": {
+            "invocation_id": "e-d79e49ff-dc0b-469b-8248-6b21bf6353d4",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "ok",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Great! I'm glad that information was helpful.\n\nIs there anything specific within the financial services industry you'd like to dive deeper into? For example, we could discuss:\n\n*   A particular sector (e.g., banking, insurance, fintech)\n*   Current trends or challenges\n*   Career paths in the industry\n*   Or anything else that comes to mind!\n\nJust let me know what you're interested in next.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": []
+            },
+            "creation_timestamp": 1772157654.139694,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "root_agent": {
+                  "name": "root_agent",
+                  "instructions": "Answer user questions to the best of your knowledge\n\nYou are an agent. Your internal name is \"root_agent\". The description about you is \"A helpful assistant for user questions.\".",
+                  "tool_declarations": []
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "e-fa90d96a-d1a1-49ab-8ef2-3099279a39b3",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "ok",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Great! I'm glad that overview was helpful.\n\nDo you have any specific areas within the financial services industry you'd like to explore further? For example, we could discuss:\n\n*   A particular segment (like banking, insurance, or FinTech)\n*   Specific trends or challenges\n*   How it affects individuals or businesses\n*   Career paths within the industry\n\nOr, if you have other questions, feel free to ask!",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "tool_uses": [],
+              "tool_responses": [],
+              "intermediate_responses": []
+            },
+            "creation_timestamp": 1772157462.130661,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 1.0,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 1.0,
+              "eval_status": 1,
+              "details": {
+                "rubric_scores": null
+              }
+            },
+            {
+              "metric_name": "response_match_score",
+              "threshold": 1.0,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.5873015873015873,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null
+              }
+            }
+          ]
+        },
+        {
+          "actual_invocation": {
+            "invocation_id": "e-ae8e29a1-5303-4d84-952a-c2dc5593454e",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Create Eval Set",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Okay, I can help you understand what an \"eval set\" is, why it's crucial, and conceptually how one is created, especially in the context of machine learning and natural language processing.\n\nAs an AI, I can't *actually* go out and collect, label, and curate a real-world, production-ready evaluation set for a specific project. That requires human effort, data access, and domain expertise. However, I can explain the process and even generate a *small illustrative example* of what an eval set might look like for a given task.\n\n---\n\n### What is an Evaluation Set (Eval Set)?\n\nIn machine learning and AI development, an **evaluation set** (also often called a **test set**) is a dedicated collection of data used to measure the performance of a trained model. It's distinct from the **training set** (used to teach the model) and the **validation set** (used to tune hyperparameters and prevent overfitting during training).\n\n**Key Characteristics:**\n\n1.  **Unseen Data:** Crucially, the eval set must consist of data that the model has **never seen during training or validation**. This ensures that the evaluation accurately reflects how well the model can generalize to new, real-world data, rather than just memorizing its training examples.\n2.  **Representative:** It should accurately represent the distribution and types of data the model will encounter in its real-world application.\n3.  **Labeled/Annotated:** For supervised learning tasks, each item in the eval set must have the correct \"ground truth\" label or desired output, against which the model's predictions can be compared.\n4.  **Static:** Once created, an eval set should ideally remain unchanged. This allows for consistent comparison between different models or different versions of the same model over time.\n\n### Why is an Eval Set Important?\n\n*   **Objective Performance Measurement:** Provides an unbiased measure of a model's true accuracy, precision, recall, F1-score, or other relevant metrics.\n*   **Generalization Assessment:** Helps determine if the model has learned general patterns (good) or merely memorized the training data (bad, known as overfitting).\n*   **Comparison and Selection:** Allows developers to compare different model architectures, algorithms, or training approaches to choose the best-performing one.\n*   **Identifying Weaknesses:** Reveals specific scenarios or data types where the model performs poorly, guiding further improvements.\n*   **Deployment Confidence:** Offers confidence that the model will perform acceptably when deployed in a real-world environment.\n\n---\n\n### Conceptual Process of Creating an Eval Set:\n\nCreating a good evaluation set typically involves these steps:\n\n1.  **Define the Task & Goals:** Clearly understand what problem your model is trying to solve (e.g., classify sentiment, answer questions, translate text).\n2.  **Data Collection:** Gather a large and diverse dataset relevant to your task. This might involve web scraping, internal databases, public datasets, etc.\n3.  **Annotation/Labeling:** This is often the most labor-intensive step. Human annotators (domain experts are crucial here) go through each piece of data and apply the correct \"ground truth\" labels according to a predefined set of guidelines. This ensures consistency and accuracy.\n    *   *Example:* For sentiment analysis, humans read text and label it as \"positive,\" \"negative,\" or \"neutral.\"\n    *   *Example:* For a question-answering model, humans might provide a question and the exact span of text from which the answer should be extracted.\n4.  **Data Splitting:** Divide your total collected and labeled dataset into three distinct parts:\n    *   **Training Set (e.g., 70-80%):** Used to train the model.\n    *   **Validation Set (e.g., 10-15%):** Used to tune hyperparameters and prevent overfitting during training.\n    *   **Evaluation/Test Set (e.g., 10-15%):** Held out completely and only used *after* training and validation are complete to give a final, unbiased performance estimate.\n    *   It's vital to ensure that the split is random but representative, meaning all sets should reflect the overall data distribution. Stratified sampling can be used for imbalanced classes.\n5.  **Quality Assurance:** Review the annotations for consistency and correctness. Disagreements between annotators (inter-annotator agreement) might indicate ambiguity in guidelines or data quality issues.\n6.  **Versioning & Documentation:** Keep track of the specific version of the eval set used for each model evaluation, along with its characteristics and any changes.\n\n---\n\n### Example of a Small Illustrative Eval Set (for a simple task)\n\nLet's say you're building a model to classify customer support emails into different categories (e.g., \"Billing Inquiry,\" \"Technical Support,\" \"General Feedback\").\n\n**Task:** Email Classification\n**Classes:** `Billing Inquiry`, `Technical Support`, `General Feedback`\n\nHere's a tiny, hypothetical \"eval set\" fragment:\n\n| ID  | Email Text                                                    | Ground Truth Label      | Model Prediction (Hypothetical) | Correct? (Hypothetical) |\n| :-- | :------------------------------------------------------------ | :---------------------- | :------------------------------ | :---------------------- |\n| 101 | My internet connection has been down for 3 hours. I can't work! | `Technical Support`     | `Technical Support`             | Yes                     |\n| 102 | When is my next payment due? I can't find the invoice.        | `Billing Inquiry`       | `Billing Inquiry`               | Yes                     |\n| 103 | Just wanted to say your new app update is fantastic!          | `General Feedback`      | `General Feedback`              | Yes                     |\n| 104 | I received a charge for $50.00 I don't recognize on my account. | `Billing Inquiry`       | `Technical Support`             | No                      |\n| 105 | My login isn't working on your website. Help!                 | `Technical Support`     | `General Feedback`              | No                      |\n| 106 | The new user interface is much easier to navigate.            | `General Feedback`      | `General Feedback`              | Yes                     |\n\nIn a real scenario, this set would contain hundreds or thousands of examples to be statistically significant. The \"Model Prediction\" and \"Correct?\" columns would be filled *after* the model has been run on this unseen data.\n\n---\n\n**In summary:** While I can describe and give examples of an eval set, generating one that's robust enough for actual ML model development is a significant and careful process typically handled by human data engineers and annotators.\n\nWhat kind of task or domain were you thinking of when you asked to \"create eval set\"? Knowing that might help me provide a more specific illustrative example!",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": []
+            },
+            "creation_timestamp": 1772157664.768663,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "root_agent": {
+                  "name": "root_agent",
+                  "instructions": "Answer user questions to the best of your knowledge\n\nYou are an agent. Your internal name is \"root_agent\". The description about you is \"A helpful assistant for user questions.\".",
+                  "tool_declarations": []
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "e-d8aa2b73-b8be-48cd-a223-fe86bd5ee25f",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Create Eval Set",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Okay, I can help you understand what an \"evaluation set\" is and how it's typically created and used, especially in the context of machine learning and natural language processing.\n\nHowever, since I don't have access to your specific data or the task you're working on, I can't *literally* create a functional evaluation set for you. Instead, I'll explain the concept and give you a **conceptual example** of what an evaluation set might look like for a common task.\n\n---\n\n### What is an Evaluation Set (Eval Set)?\n\nIn machine learning and related fields, an **evaluation set** (also often called a **test set**) is a separate subset of your overall dataset that is used to assess the performance of a trained model.\n\n**Key Characteristics:**\n\n*   **Unseen Data:** Crucially, the model should **never** have seen this data during its training phase. This ensures that you're testing its ability to generalize to new, real-world examples, rather than just memorizing the training data.\n*   **Representative:** It should accurately reflect the distribution and characteristics of the real-world data the model will encounter in production.\n*   **Labeled (for Supervised Learning):** For supervised learning tasks (like classification or regression), the evaluation set must contain the correct \"ground truth\" labels or values, so you can compare the model's predictions against them.\n\n### Why Do We Use Eval Sets?\n\n1.  **Assess Generalization:** To understand how well your model performs on new, unseen data.\n2.  **Compare Models:** To objectively compare the performance of different models or different configurations of the same model.\n3.  **Identify Overfitting:** If a model performs very well on the training data but poorly on the evaluation set, it's likely overfitting.\n4.  **Fine-tuning and Hyperparameter Optimization (often done with a *validation set*):** While the final test set is kept pristine until the very end, a similar concept, the \"validation set,\" is used during development to tune hyperparameters and make architectural decisions without touching the final test set.\n\n### General Steps to Create an Evaluation Set\n\n1.  **Gather Your Data:** Collect all the raw data relevant to your problem.\n2.  **Clean and Preprocess:** Standardize formats, handle missing values, remove noise, tokenize text, etc. (Apply the same preprocessing steps to all splits: training, validation, and test).\n3.  **Annotate/Label:** If it's a supervised learning task, human experts or reliable sources must label each data point with the correct output (e.g., \"positive\" or \"negative\" sentiment, \"spam\" or \"not spam\").\n4.  **Split the Data:** This is a crucial step.\n    *   **Training Set (e.g., 70-80%):** Used to train the model.\n    *   **Validation Set (e.g., 10-15%):** Used for hyperparameter tuning and model selection during development.\n    *   **Test/Evaluation Set (e.g., 10-15%):** Used for the final, unbiased evaluation of the model's performance.\n    *   **Stratified Sampling:** If your classes are imbalanced, use stratified sampling to ensure each split has a similar proportion of each class.\n5.  **Store Securely:** Keep your evaluation set separate and untouched until you're ready for final model assessment.\n\n---\n\n### Conceptual Example: Sentiment Analysis Eval Set\n\nLet's imagine you're building a model to classify the sentiment of customer reviews (Positive, Neutral, Negative).\n\nYour evaluation set would consist of customer reviews that your model has *never seen during training*, each with its correct, human-labeled sentiment.\n\n**Format (e.g., CSV or JSON):**\n\n```csv\nreview_id,text,actual_sentiment\n1001,\"The service was incredibly fast and the food delicious!\",Positive\n1002,\"The delivery was late, but the driver was polite.\",Neutral\n1003,\"Absolutely terrible experience. Never ordering again.\",Negative\n1004,\"Product arrived broken. Very disappointed.\",Negative\n1005,\"This is my favorite coffee shop! Highly recommend.\",Positive\n1006,\"The app crashed multiple times during checkout.\",Negative\n1007,\"It's okay, nothing special.\",Neutral\n1008,\"Quick and efficient process.\",Positive\n```\n\n**Explanation of Columns:**\n\n*   **`review_id`**: A unique identifier for each review.\n*   **`text`**: The actual customer review text. This is the input your model will process.\n*   **`actual_sentiment`**: The \"ground truth\" label (human-assigned sentiment) that your model's prediction will be compared against.\n\nWhen you evaluate your model, it would predict a sentiment for each `text` in this set, and you would then calculate metrics (like accuracy, precision, recall, F1-score) by comparing your model's `predicted_sentiment` to the `actual_sentiment`.\n\n---\n\n**To help me provide a more specific example or guide you better, could you tell me:**\n\n*   **What kind of data are you working with?** (e.g., text, images, numerical data)\n*   **What is the task?** (e.g., classification, regression, summarization, generation)\n*   **What is the approximate size of your total dataset?**",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "tool_uses": [],
+              "tool_responses": [],
+              "intermediate_responses": []
+            },
+            "creation_timestamp": 1772157463.537959,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 1.0,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 1.0,
+              "eval_status": 1,
+              "details": {
+                "rubric_scores": null
+              }
+            },
+            {
+              "metric_name": "response_match_score",
+              "threshold": 1.0,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.6089517078916373,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null
+              }
+            }
+          ]
+        }
+      ],
+      "session_id": "___eval___session___05efd8f4-28f9-46ff-a0dd-3aa55f90120e",
+      "session_details": {
+        "id": "___eval___session___05efd8f4-28f9-46ff-a0dd-3aa55f90120e",
+        "app_name": "industry_expert",
+        "user_id": "user",
+        "state": {
+          "__llm_request_key__": "5721bfe3-de2f-4ece-92b4-f07844e63c3a"
+        },
+        "events": [
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about financial serviecs industry",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-96793788-faf2-4299-9aac-0e7ba9bec70c",
+            "author": "user",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "6978b5f9-32b3-439f-95de-776fb82f86c2",
+            "timestamp": 1772157641.690158
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "The financial services industry is a vast and vital sector of the global economy. It encompasses a wide range of organizations and professionals that manage money, credit, investments, and other financial assets for individuals, businesses, and governments. Essentially, it's the engine that facilitates the flow of money and capital within an economy.\n\nHere's a breakdown of its key aspects:\n\n### 1. What it is:\nAt its core, the financial services industry helps people and organizations manage their financial resources, allocate capital, mitigate risk, and make payments. It acts as an intermediary, connecting those who have surplus funds (savers/investors) with those who need funds (borrowers/companies).\n\n### 2. Key Sectors and Segments:\n\n*   **Banking:**\n    *   **Commercial Banking:** Deals with individuals and businesses, offering services like checking/savings accounts, loans (mortgages, business loans), credit cards, and payment processing. Examples: JPMorgan Chase, HSBC, Bank of America.\n    *   **Investment Banking:** Focuses on corporate clients, providing services like mergers & acquisitions (M&A) advisory, underwriting new stock and bond issues (capital raising), and proprietary trading. Examples: Goldman Sachs, Morgan Stanley.\n    *   **Credit Unions:** Member-owned financial cooperatives that offer similar services to commercial banks, often with a focus on local communities.\n\n*   **Insurance:**\n    *   Provides protection against financial loss from various risks.\n    *   **Life Insurance:** Protects against financial loss due to death or disability.\n    *   **Property & Casualty Insurance:** Covers damage to property (e.g., home, auto) and liability claims.\n    *   **Health Insurance:** Covers medical expenses.\n    *   Examples: Allianz, AXA, Berkshire Hathaway, Ping An Insurance.\n\n*   **Investment Management (Asset Management):**\n    *   Manages investment portfolios for individuals, institutions (pension funds, endowments), and corporations.\n    *   Includes mutual funds, hedge funds, private equity firms, and wealth management services.\n    *   Examples: BlackRock, Vanguard, Fidelity, State Street.\n\n*   **Brokerage:**\n    *   Facilitates the buying and selling of financial securities (stocks, bonds, mutual funds) for clients.\n    *   Can be full-service or discount/online brokers.\n    *   Examples: Charles Schwab, Fidelity (also investment management), Robinhood.\n\n*   **Financial Planning & Wealth Management:**\n    *   Advisors who help individuals and families set financial goals, plan for retirement, manage investments, and handle estate planning.\n\n*   **Payment Services:**\n    *   Companies that facilitate electronic transactions, credit card processing, and digital payments.\n    *   Examples: Visa, Mastercard, PayPal, Stripe.\n\n*   **Fintech (Financial Technology):**\n    *   A rapidly growing area using technology to improve and automate financial services. This can span across all sectors, introducing new ways of banking, investing, lending, and making payments (e.g., challenger banks, robo-advisors, blockchain-based services).\n\n### 3. Core Functions and Importance:\n\n*   **Capital Formation:** Channels savings into productive investments, essential for economic growth.\n*   **Risk Management:** Helps individuals and businesses mitigate financial risks through insurance, hedging, and diversification.\n*   **Payment Systems:** Enables efficient and secure transactions, crucial for commerce.\n*   **Wealth Creation & Preservation:** Helps individuals and institutions grow and protect their assets over time.\n*   **Economic Stability:** A well-regulated and efficient financial system contributes to overall economic stability.\n\n### 4. Key Trends and Challenges:\n\n*   **Digital Transformation & Fintech:** The rise of AI, machine learning, blockchain, and mobile technology is revolutionizing how financial services are delivered, leading to greater efficiency, personalized experiences, and new competitors.\n*   **Regulatory Scrutiny:** Post-2008 financial crisis, the industry faces intense regulation aimed at consumer protection, financial stability, and anti-money laundering (AML). Data privacy (e.g., GDPR, CCPA) is also a major concern.\n*   **Cybersecurity:** As financial services become more digital, they are increasingly vulnerable to cyberattacks, making robust security a top priority.\n*   **Sustainability & ESG:** Growing emphasis on Environmental, Social, and Governance (ESG) factors in investment decisions and corporate responsibility. Green finance and sustainable investing are expanding.\n*   **Competition:** Increased competition from traditional players, fintech startups, and even \"Big Tech\" companies entering the financial space.\n*   **Demographic Shifts:** Aging populations and changing generational wealth transfer patterns impact demand for different types of financial products and services.\n\nIn summary, the financial services industry is a complex, dynamic, and essential part of the modern world, constantly evolving to meet the financial needs of a global society.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "e032f411-8ecf-4dab-960a-99b64e6e3625"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 1030,
+              "candidates_tokens_details": null,
+              "prompt_token_count": 47,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 47
+                }
+              ],
+              "thoughts_token_count": 937,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 2014,
+              "traffic_type": null
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-96793788-faf2-4299-9aac-0e7ba9bec70c",
+            "author": "root_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "e032f411-8ecf-4dab-960a-99b64e6e3625"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "374e3f1a-0d18-4c3f-8d76-5ca87f40fd70",
+            "timestamp": 1772157641.818417
+          },
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "ok",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-d79e49ff-dc0b-469b-8248-6b21bf6353d4",
+            "author": "user",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "ab0627dc-66b4-4ca0-9086-c3602444f072",
+            "timestamp": 1772157652.10619
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Great! I'm glad that information was helpful.\n\nIs there anything specific within the financial services industry you'd like to dive deeper into? For example, we could discuss:\n\n*   A particular sector (e.g., banking, insurance, fintech)\n*   Current trends or challenges\n*   Career paths in the industry\n*   Or anything else that comes to mind!\n\nJust let me know what you're interested in next.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "fdbfe4f7-20c7-4590-87e2-1adccc3a86a5"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 93,
+              "candidates_tokens_details": null,
+              "prompt_token_count": 1080,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 1080
+                }
+              ],
+              "thoughts_token_count": 191,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 1364,
+              "traffic_type": null
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-d79e49ff-dc0b-469b-8248-6b21bf6353d4",
+            "author": "root_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "fdbfe4f7-20c7-4590-87e2-1adccc3a86a5"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "550525f2-f512-4484-80ad-9d684a9cdec7",
+            "timestamp": 1772157652.110996
+          },
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Create Eval Set",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-ae8e29a1-5303-4d84-952a-c2dc5593454e",
+            "author": "user",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "4a79e73a-de65-4000-a4db-fd974ed48473",
+            "timestamp": 1772157654.146937
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "Okay, I can help you understand what an \"eval set\" is, why it's crucial, and conceptually how one is created, especially in the context of machine learning and natural language processing.\n\nAs an AI, I can't *actually* go out and collect, label, and curate a real-world, production-ready evaluation set for a specific project. That requires human effort, data access, and domain expertise. However, I can explain the process and even generate a *small illustrative example* of what an eval set might look like for a given task.\n\n---\n\n### What is an Evaluation Set (Eval Set)?\n\nIn machine learning and AI development, an **evaluation set** (also often called a **test set**) is a dedicated collection of data used to measure the performance of a trained model. It's distinct from the **training set** (used to teach the model) and the **validation set** (used to tune hyperparameters and prevent overfitting during training).\n\n**Key Characteristics:**\n\n1.  **Unseen Data:** Crucially, the eval set must consist of data that the model has **never seen during training or validation**. This ensures that the evaluation accurately reflects how well the model can generalize to new, real-world data, rather than just memorizing its training examples.\n2.  **Representative:** It should accurately represent the distribution and types of data the model will encounter in its real-world application.\n3.  **Labeled/Annotated:** For supervised learning tasks, each item in the eval set must have the correct \"ground truth\" label or desired output, against which the model's predictions can be compared.\n4.  **Static:** Once created, an eval set should ideally remain unchanged. This allows for consistent comparison between different models or different versions of the same model over time.\n\n### Why is an Eval Set Important?\n\n*   **Objective Performance Measurement:** Provides an unbiased measure of a model's true accuracy, precision, recall, F1-score, or other relevant metrics.\n*   **Generalization Assessment:** Helps determine if the model has learned general patterns (good) or merely memorized the training data (bad, known as overfitting).\n*   **Comparison and Selection:** Allows developers to compare different model architectures, algorithms, or training approaches to choose the best-performing one.\n*   **Identifying Weaknesses:** Reveals specific scenarios or data types where the model performs poorly, guiding further improvements.\n*   **Deployment Confidence:** Offers confidence that the model will perform acceptably when deployed in a real-world environment.\n\n---\n\n### Conceptual Process of Creating an Eval Set:\n\nCreating a good evaluation set typically involves these steps:\n\n1.  **Define the Task & Goals:** Clearly understand what problem your model is trying to solve (e.g., classify sentiment, answer questions, translate text).\n2.  **Data Collection:** Gather a large and diverse dataset relevant to your task. This might involve web scraping, internal databases, public datasets, etc.\n3.  **Annotation/Labeling:** This is often the most labor-intensive step. Human annotators (domain experts are crucial here) go through each piece of data and apply the correct \"ground truth\" labels according to a predefined set of guidelines. This ensures consistency and accuracy.\n    *   *Example:* For sentiment analysis, humans read text and label it as \"positive,\" \"negative,\" or \"neutral.\"\n    *   *Example:* For a question-answering model, humans might provide a question and the exact span of text from which the answer should be extracted.\n4.  **Data Splitting:** Divide your total collected and labeled dataset into three distinct parts:\n    *   **Training Set (e.g., 70-80%):** Used to train the model.\n    *   **Validation Set (e.g., 10-15%):** Used to tune hyperparameters and prevent overfitting during training.\n    *   **Evaluation/Test Set (e.g., 10-15%):** Held out completely and only used *after* training and validation are complete to give a final, unbiased performance estimate.\n    *   It's vital to ensure that the split is random but representative, meaning all sets should reflect the overall data distribution. Stratified sampling can be used for imbalanced classes.\n5.  **Quality Assurance:** Review the annotations for consistency and correctness. Disagreements between annotators (inter-annotator agreement) might indicate ambiguity in guidelines or data quality issues.\n6.  **Versioning & Documentation:** Keep track of the specific version of the eval set used for each model evaluation, along with its characteristics and any changes.\n\n---\n\n### Example of a Small Illustrative Eval Set (for a simple task)\n\nLet's say you're building a model to classify customer support emails into different categories (e.g., \"Billing Inquiry,\" \"Technical Support,\" \"General Feedback\").\n\n**Task:** Email Classification\n**Classes:** `Billing Inquiry`, `Technical Support`, `General Feedback`\n\nHere's a tiny, hypothetical \"eval set\" fragment:\n\n| ID  | Email Text                                                    | Ground Truth Label      | Model Prediction (Hypothetical) | Correct? (Hypothetical) |\n| :-- | :------------------------------------------------------------ | :---------------------- | :------------------------------ | :---------------------- |\n| 101 | My internet connection has been down for 3 hours. I can't work! | `Technical Support`     | `Technical Support`             | Yes                     |\n| 102 | When is my next payment due? I can't find the invoice.        | `Billing Inquiry`       | `Billing Inquiry`               | Yes                     |\n| 103 | Just wanted to say your new app update is fantastic!          | `General Feedback`      | `General Feedback`              | Yes                     |\n| 104 | I received a charge for $50.00 I don't recognize on my account. | `Billing Inquiry`       | `Technical Support`             | No                      |\n| 105 | My login isn't working on your website. Help!                 | `Technical Support`     | `General Feedback`              | No                      |\n| 106 | The new user interface is much easier to navigate.            | `General Feedback`      | `General Feedback`              | Yes                     |\n\nIn a real scenario, this set would contain hundreds or thousands of examples to be statistically significant. The \"Model Prediction\" and \"Correct?\" columns would be filled *after* the model has been run on this unseen data.\n\n---\n\n**In summary:** While I can describe and give examples of an eval set, generating one that's robust enough for actual ML model development is a significant and careful process typically handled by human data engineers and annotators.\n\nWhat kind of task or domain were you thinking of when you asked to \"create eval set\"? Knowing that might help me provide a more specific illustrative example!",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "5721bfe3-de2f-4ece-92b4-f07844e63c3a"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 1476,
+              "candidates_tokens_details": null,
+              "prompt_token_count": 1178,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 1178
+                }
+              ],
+              "thoughts_token_count": 494,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 3148,
+              "traffic_type": null
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-ae8e29a1-5303-4d84-952a-c2dc5593454e",
+            "author": "root_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "5721bfe3-de2f-4ece-92b4-f07844e63c3a"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "68dbfe04-93c4-415d-9c80-b3490a4f36e4",
+            "timestamp": 1772157654.150963
+          }
+        ],
+        "last_update_time": 1772157654.150963
+      },
+      "user_id": "user"
+    }
+  ],
+  "creation_timestamp": 1772157664.8286679
+}

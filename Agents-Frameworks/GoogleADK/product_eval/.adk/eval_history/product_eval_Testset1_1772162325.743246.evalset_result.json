@@ -1,0 +1,2276 @@
+{
+  "eval_set_result_id": "product_eval_Testset1_1772162325.743246",
+  "eval_set_result_name": "product_eval_Testset1_1772162325.743246",
+  "eval_set_id": "Testset1",
+  "eval_case_results": [
+    {
+      "eval_set_file": "Testset1",
+      "eval_set_id": "Testset1",
+      "eval_id": "case9c87f7",
+      "final_eval_status": 2,
+      "eval_metric_results": null,
+      "overall_eval_metric_results": [
+        {
+          "metric_name": "tool_trajectory_avg_score",
+          "threshold": 1.0,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 0.0,
+          "eval_status": 2,
+          "details": {
+            "rubric_scores": null
+          }
+        },
+        {
+          "metric_name": "response_match_score",
+          "threshold": 0.7,
+          "criterion": null,
+          "custom_function_path": null,
+          "score": 0.5577115177490192,
+          "eval_status": 2,
+          "details": {
+            "rubric_scores": null
+          }
+        }
+      ],
+      "eval_metric_result_per_invocation": [
+        {
+          "actual_invocation": {
+            "invocation_id": "e-e7f6984f-54b9-4741-ac80-342244b7e9d6",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about acme-earbuds",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I couldn't find any details for acme-earbuds. Please double check the product ID and try again.",
+                  "thought": null,
+                  "thought_signature": "CsECAb4-9vsePnH4G9UZVeJFre8RwJGp1VNaSFOrX3abJjXCljjIYUfZX8eitDJm0G-RHRHg7Bte7klJjlXTQqfBZ9o7ruuWAxMw-hy5fDZZnn12eNCFvwEAbYGKsmeh04J6uTbJCETIXW4uTIWdXm5fCz_0rfaR9Ehm5UoAHYoFNMAB-azMG3tDB7U6TJUVn_rLSdcZvUHEfkAB-TK6jniD5W8MterhsOkTBRb9m6D-W36QVYssvMkWFHD43TIxVdPGtxDzC1uHvwETOpcGihN1PyFM-fLEBQKBhKYYoKriIoqevpFqe5cVG2xN3JUJHkeuRYiAQkwU8GKJRlwQGQE3WdaJ_JTnlCE58CiPnLBFgX4qe8E5rjh_PdaNM2PsronYgQuxhLgsAhFeuYjQVeeld9gLehxK1XdL3RnRcTj5MpGQ",
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": [
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-ef07ab83-0e60-49c3-b26c-c4ddc62ec9b3",
+                          "args": {
+                            "product_id": "acme-earbuds"
+                          },
+                          "name": "get_product_details",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": "Co8CAb4-9vtDfNVbbyOZku3BISzbKqrcCTWocoLJDz9PiIoCUmGmGlwshfxBhWpUqkPW9hroPaGgwyjZntyvhM_glAm3o9e15-GWuJSnu4Hmb9P724-kJnUojyqffSgz97lKddfdl9ZBoAMq5oeTGjeLdamwnvR9EO0wrmO46nWgtSzcxLIjEauBWE_RE3NUAjpJ2yhtTctZWfEBsxc6yBukllt6FZN1O8JNu3p85-8bzP7yG57vRmgMwEkLRLTNZ1FR7qn9peI4R6eBd0TTT9rlfuxgEepPT2lrBH4nOxja_dMZKi63xtEF-Awv_oaHJ-2DOzuuVhYfEJSZEjzydeAa9cFxaA1bEVcqdHrh-WzxBQ==",
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-ef07ab83-0e60-49c3-b26c-c4ddc62ec9b3",
+                          "name": "get_product_details",
+                          "response": {
+                            "error": "Not found"
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                }
+              ]
+            },
+            "creation_timestamp": 1772162321.722276,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "simple_product_agent": {
+                  "name": "simple_product_agent",
+                  "instructions": "CRITICAL RULES (MUST FOLLOW):\n1) You MUST call exactly ONE tool before you answer.\n2) Do NOT answer from memory.\n3) get_product_details → for customer info\n4) INTERNAL TOOL (private): lookup_product_information\n- Use ONLY for: SKU, inventory\n- NEVER use this tool for customer-facing questions.\n\nUse the correct tool depending on the question.\n\nYou are an agent. Your internal name is \"simple_product_agent\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": [
+                        {
+                          "description": null,
+                          "name": "get_product_details",
+                          "parameters": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": {
+                              "product_id": {
+                                "additional_properties": null,
+                                "defs": null,
+                                "ref": null,
+                                "any_of": null,
+                                "default": null,
+                                "description": null,
+                                "enum": null,
+                                "example": null,
+                                "format": null,
+                                "items": null,
+                                "max_items": null,
+                                "max_length": null,
+                                "max_properties": null,
+                                "maximum": null,
+                                "min_items": null,
+                                "min_length": null,
+                                "min_properties": null,
+                                "minimum": null,
+                                "nullable": null,
+                                "pattern": null,
+                                "properties": null,
+                                "property_ordering": null,
+                                "required": null,
+                                "title": null,
+                                "type": "STRING"
+                              }
+                            },
+                            "property_ordering": null,
+                            "required": [
+                              "product_id"
+                            ],
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": null,
+                          "name": "lookup_product_information",
+                          "parameters": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": {
+                              "product_id": {
+                                "additional_properties": null,
+                                "defs": null,
+                                "ref": null,
+                                "any_of": null,
+                                "default": null,
+                                "description": null,
+                                "enum": null,
+                                "example": null,
+                                "format": null,
+                                "items": null,
+                                "max_items": null,
+                                "max_length": null,
+                                "max_properties": null,
+                                "maximum": null,
+                                "min_items": null,
+                                "min_length": null,
+                                "min_properties": null,
+                                "minimum": null,
+                                "nullable": null,
+                                "pattern": null,
+                                "properties": null,
+                                "property_ordering": null,
+                                "required": null,
+                                "title": null,
+                                "type": "STRING"
+                              }
+                            },
+                            "property_ordering": null,
+                            "required": [
+                              "product_id"
+                            ],
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        }
+                      ],
+                      "google_maps": null,
+                      "google_search": null,
+                      "google_search_retrieval": null,
+                      "url_context": null
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "e-7bc546f3-8817-40b5-97f5-c990339f3a05",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about acme-earbuds",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I couldn't find any information about a product with the ID \"acme-earbuds\". It's possible the product ID is incorrect or the product does not exist.",
+                  "thought": null,
+                  "thought_signature": "CuwCAb4-9vswnGnt3CC0Zav9OMe7q_QgVH15IDn4y1c3fJ_D1OCy6wJplpIRcOmEc9Eee4fS6MBC20hrsraqgEHz8oy7ySGBnM08f-j35QzyMiHFKC1XwPt5YwLjN8gLKylP9oKOFMPe1DKvhdGbFB3SzQktVgQAzPIbKeIRGDMSCJFJ-hX6raVoVdkUHpmhxOzwIrs2upKmHhbFWW69Zk1Hw4UH-vPuhhKftSL_kyb-iTaMnzbVPz4n_6yo6Y4VGBs2EjgnpLU375ethOc2Us9mR5V0LQGwqDGOZ96cJwN8Wvl0SnBkjNQWgXV5eaSqYRzTBxfwEXeZQwp1PRUf7TwTY90fYbTfzFtNfmskcIxYPtuc_RC0lzl-kSOP6lPFXrVV1NDHpITjFoxGQcRrXVTmMnOId4Z0ygDv1nOsh5mKt5eqa7vAs02nxI3zrvWPF-hDOo-94srhpouGD6DRuVZcMILIlZak5_WqH26CwQ==",
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": [
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-e39b7178-5a3e-41d7-a2ae-54824dfb7fce",
+                          "args": {
+                            "product_id": "acme-earbuds"
+                          },
+                          "name": "lookup_product_information",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": "CpIEAb4-9vsUHRzsT59thjc7WtX3-Hm1S5kMQsHG38jfFK_PrH3Qc6OOdHVBYunCKor-j9w96CzT6xrE7dFoUxkOkSoqBq-7bOH69vxEGao2WvmvrdeqFMw3kOaXf9DIdy3uqhXJXgW2SivogjVsnNl_Mh17izGRIOML2Bl_NUa-1aBIdyQVWlDakjIgzTw6lqwMnzRlwyUxw36w-M7eDzPYfF7FRjtqNz7wPpMeVMLRsInxjhKAW1UP_0QDfldip1tJNg11wr95GemAoNC3wGTLk0ww6Lon4Zc5olholfVQMx7tD9wf2J0a4ZJ1G7kUdFSlY28ncgK_lKGEpfyxho_zCwStqlR5SouwhnmoSmWE8atdj3ZwD91EZL2okovgNvIzlCzfdk_FATdn1Yun9c0Q-vuaxaGL8HGuTNzed2GXU0D0xerk-K--py5dYdz4Eo2JPh433JuNiFbfa6yQ7iF6HOZOaW5liW7JIslleSTzRS1T3C6eDLPn4R_dim6vma7CtR5MxP0Eonx3XUQzF4hscpcNkiEuYb1ihKGZwJYMDBknyGIkTmQYiYLdR9sPd5qYNIEUKNPiKnl52BwB_fzGcb9S0m9FJzNI8-zgopCbjjnwmbym1WXLH1G5oUsRaZorO4lwTmTVceMTahsN-0s7c4XHuJ9zzKRiHn9brFus30K_o34lZr8OygoVv19RVyonxCs=",
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-e39b7178-5a3e-41d7-a2ae-54824dfb7fce",
+                          "name": "lookup_product_information",
+                          "response": {
+                            "error": "Not found"
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-702a5643-e05c-4ac9-a47b-a64d08138a8b",
+                          "args": {
+                            "product_id": "acme-earbuds"
+                          },
+                          "name": "get_product_details",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": "Co8EAb4-9vtrMCfI8evABjEqvydmM-ZlIjQAAGPgbKH6sivN9y33rp23upCG1jNzCudzHcijxZfsuTvkR1jQehKjbnSw-NQIpkJmgP2MrHer7WK5x2ck7rSu3lN5-dsc64U-BfbJdRiQaQbJGkGjtoJRcID1iu_u5CtcE7FULz3Zl4inoee72STc91C3CKBljPwmT9ii8KVrisNwcsYAwzJ4y5DzJahUZJB5SOEj6dRT_lTvagi0puTUlaCl84c-Cd_roZQJnxVPK398cFRU1JAlvIxyRPS8r-E7s_8X-92MmdKUfyjk1bLzbAm5DtK_ihegotMlCk3bmDRRTDrQ65a7zDbg0mCnPoydBuiHtyhB9yZBnqn9nBNAfxycSQdpcxvZOn9uPBJ0XggSeQ54q0hWEZCtUQmrMo13_RQGqbbgMifJWvykAB26hdueaH5cJEOl6GB26HxG8mDxQcBJg4RIkMLw6pUN6uimPyR0KhgeToIujAd2tBtLm6UdI_h91dm5XKSt_xBgZu6sr27kec4RLplhVCEePtxo4JumVi4_1hod6VXO993X-_kwamxWBVJG3wGCtP9ABtv8PLKdeAilrze7g22MA0GKBGkBXDN6CuxDXDtvLeWuqDPDDoWMff5UDMzSzVcxB0rILGe_HSL-jRG2DzwDBTQZU-gVxj7GQDBathYAhNtF12WXrGW3pJo=",
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-702a5643-e05c-4ac9-a47b-a64d08138a8b",
+                          "name": "get_product_details",
+                          "response": {
+                            "error": "Not found"
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                }
+              ]
+            },
+            "creation_timestamp": 1772161902.180427,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 1.0,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.0,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null
+              }
+            },
+            {
+              "metric_name": "response_match_score",
+              "threshold": 0.7,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.43478260869565216,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null
+              }
+            }
+          ]
+        },
+        {
+          "actual_invocation": {
+            "invocation_id": "e-186cd7ae-89b8-4167-be51-3f92ce1e747c",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about ACME NoiseBuds",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I couldn't find any details for ACME NoiseBuds. Please double check the product ID and try again.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": [
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-acedb244-abb8-4ef5-9ba1-cd20d779677b",
+                          "args": {
+                            "product_id": "ACME NoiseBuds"
+                          },
+                          "name": "get_product_details",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": "CvoBAb4-9vsfeOw6I1gMPvy_8F3Zvle530vMv0XBsTsLOo-mk5LP3Np3XRTlmxMwrY5Dhc8NLK8GyvJlUt86sEuW3s2NishD0tU_qJ0Lvs6KxjU9mNdxYAiKalB_8mW5ROkm8_q-ZkFHORvQoabS675HaCNM-xm2AMu6k0B3ENz2aE-tstOntiNiflBDt36tsokx3F5MmkXLyuZt7AHrg0h1Wng_AKk2wCZzKo5vFA66GghqaIYNEiskzZBsZI_DT8yu44MIsPYc8aW0F3F9yZrQAKhQNamgg0RrfzoSVZbdrgnaHHpE58U62K3vY1eAit3XTGh2nWlzRfweRg==",
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-acedb244-abb8-4ef5-9ba1-cd20d779677b",
+                          "name": "get_product_details",
+                          "response": {
+                            "error": "Not found"
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                }
+              ]
+            },
+            "creation_timestamp": 1772162323.437391,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "simple_product_agent": {
+                  "name": "simple_product_agent",
+                  "instructions": "CRITICAL RULES (MUST FOLLOW):\n1) You MUST call exactly ONE tool before you answer.\n2) Do NOT answer from memory.\n3) get_product_details → for customer info\n4) INTERNAL TOOL (private): lookup_product_information\n- Use ONLY for: SKU, inventory\n- NEVER use this tool for customer-facing questions.\n\nUse the correct tool depending on the question.\n\nYou are an agent. Your internal name is \"simple_product_agent\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": [
+                        {
+                          "description": null,
+                          "name": "get_product_details",
+                          "parameters": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": {
+                              "product_id": {
+                                "additional_properties": null,
+                                "defs": null,
+                                "ref": null,
+                                "any_of": null,
+                                "default": null,
+                                "description": null,
+                                "enum": null,
+                                "example": null,
+                                "format": null,
+                                "items": null,
+                                "max_items": null,
+                                "max_length": null,
+                                "max_properties": null,
+                                "maximum": null,
+                                "min_items": null,
+                                "min_length": null,
+                                "min_properties": null,
+                                "minimum": null,
+                                "nullable": null,
+                                "pattern": null,
+                                "properties": null,
+                                "property_ordering": null,
+                                "required": null,
+                                "title": null,
+                                "type": "STRING"
+                              }
+                            },
+                            "property_ordering": null,
+                            "required": [
+                              "product_id"
+                            ],
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": null,
+                          "name": "lookup_product_information",
+                          "parameters": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": {
+                              "product_id": {
+                                "additional_properties": null,
+                                "defs": null,
+                                "ref": null,
+                                "any_of": null,
+                                "default": null,
+                                "description": null,
+                                "enum": null,
+                                "example": null,
+                                "format": null,
+                                "items": null,
+                                "max_items": null,
+                                "max_length": null,
+                                "max_properties": null,
+                                "maximum": null,
+                                "min_items": null,
+                                "min_length": null,
+                                "min_properties": null,
+                                "minimum": null,
+                                "nullable": null,
+                                "pattern": null,
+                                "properties": null,
+                                "property_ordering": null,
+                                "required": null,
+                                "title": null,
+                                "type": "STRING"
+                              }
+                            },
+                            "property_ordering": null,
+                            "required": [
+                              "product_id"
+                            ],
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        }
+                      ],
+                      "google_maps": null,
+                      "google_search": null,
+                      "google_search_retrieval": null,
+                      "url_context": null
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "e-846b1669-42f7-49ce-9af7-1f212a263a85",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about ACME NoiseBuds",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I couldn't find any information about a product with the ID \"ACME NoiseBuds\". It's possible the product ID is incorrect or the product does not exist in our records.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": [
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-572d6499-1edf-4566-8577-47f41bd2b285",
+                          "args": {
+                            "product_id": "ACME NoiseBuds"
+                          },
+                          "name": "lookup_product_information",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": "CvIDAb4-9vte4r7vGN2GOqRZyQcso3ZVdBPCyI05huJwkblkEBjeqRBBL5cPhX6a2HbTQsUchw4h0nYMGkf6oaqrjQpxWO-7_PLv2kjRTvfIx2OnRCHoVmrOGy3rTLG5VD4Dglng0Uojm-OqzDqpP-sEggZGeyBn5F-2dT5pDOCoMUxCyZFgucVpiRmc2_k4WZnXH_hm0KTzZZXuRIVV4cDQzsRI79xrAKjo21G57KBTNEosHgnf0XBU05ZA3cUxdm6-FkpivQKF4uy2693njyJLjl9X2Yl35EiVb5bIgVUnmpGc62-PkY0v4Oye4_XqGZavI8FO6uZDWGRTZN2dzK66GqDqMuTU1GLC3t4BEDiq2Ykx1l1IuhveNCTmObctXHbMUmTvOhJ53JiT5TfvPCVQ8FP4m22YTdl-w86oKpXdX0AeRmBdxurjbZA3NhlMMajNZeIBvz0RVFzvN3A8QDQ_HgFR24j5hhZD1emKgmSLFMQpgNQL9jEEAGVUrDxbJcFhwB0_0VL190q9uzZOce3HpoOdlCd5p6dwtCXK6QyonJZwVkLam8pLg7SroPRaC54CkFnmkhwkQSA2pFiStVSCK2e_87B8WQm5fFh1d5UqCSaMbB3zBRuoqc0fhLo4yNiSZN96kwdIXxJFusv7rCRISDZi",
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-572d6499-1edf-4566-8577-47f41bd2b285",
+                          "name": "lookup_product_information",
+                          "response": {
+                            "error": "Not found"
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-28c86895-b509-4bef-9251-6af2e87b2eca",
+                          "args": {
+                            "product_id": "ACME NoiseBuds"
+                          },
+                          "name": "get_product_details",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": "CooEAb4-9vu-W2dPLYC4iXfPb_De8ItHXqdteuQt-ApBEOoHzhIp7Las3mLNOD9uXkryxu--1rscSRsdm9FrxC2sVnzxkggZ1yTrMHLKuVyAD0vW0dOQo3P3Nrc_H53rHAVR1zitNvVKI0kuVltlyxX40kogBYKka7VRhhGXpNE1YDzpNXOxiH4R92QITIkGxqYVNwH7nVasym6mGKIiGRyXrX8bfJpvT0iaENStpeYbFc3DN8kx3aU6v9SrGDOIiLDZ1zrg1cBnFS92IznpzqF9X-QI_Ziy9tMXfPnSqUlb1D6vCkwD3dtdU8OpXm0OnQWctWNtPVqNLHpUSIVaecNfiQPK28hjTewIrqzLMonb2WNRjMtA_xTl3VyOJEWQOAcYbT2zhYBt2z_qx1uXJFG-gEjwmTaCdXIDYKl7R_pqWaKw73nFrE3NfoUNC9O0SODWW5lKHo3whbPsYVh7Mha_KFE_nhpSD_GpEy7mq9ETh8cZfoQo6FMLGaaCopSLvWZg7z1WYfM8fJfA5zLu6mQZB2beQO26XVZW2vK5dYNOqDivaAbFxoYopVWDdpA6qbScbE1aZEbpsgmK44SvZ-F-9NNKo4Z_m6d6bSkMamXs4CkAnJdKqa3ON6ZbIHtuS_dwpvbTRyLERBIHAMhrzfrBTqLwb6yPuyaoYtktHyYjZ_qGt-jqkCIF90su",
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-28c86895-b509-4bef-9251-6af2e87b2eca",
+                          "name": "get_product_details",
+                          "response": {
+                            "error": "Not found"
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                }
+              ]
+            },
+            "creation_timestamp": 1772161924.002384,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 1.0,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.0,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null
+              }
+            },
+            {
+              "metric_name": "response_match_score",
+              "threshold": 0.7,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.40816326530612246,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null
+              }
+            }
+          ]
+        },
+        {
+          "actual_invocation": {
+            "invocation_id": "e-95477435-222f-4e27-a008-0d47bd633a24",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about acme-noisebuds",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "The ACME NoiseBuds 200 are priced at $149 and feature Active Noise Cancellation (ANC), 30 hours of battery life, and 6-microphone call technology.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": [
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-5c6e8c62-a71b-49e0-97c5-71eef47d6a28",
+                          "args": {
+                            "product_id": "acme-noisebuds"
+                          },
+                          "name": "get_product_details",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": "CtQBAb4-9vtmNbTYdpdIstppf9YRC6gRf7nDUAqLaDVLTEC8-ww_ZUsiVwurOkpLIGR-z_gD997oUjGR9dqa0u7ooDx3jT2CZOJJcOVFcZXIA9gz6RysweaG-3kNKieLEvdaowmy1JRnbPKsk0jBsx-68hPhy1fpEVceerzLAxJeVuoju3-HIVaZwWUp0qmoK1Qu91Lf2ddV5j_QLCJCZMNCGGoa3UyhKDoFMLS8GZ9xo5pRFTTNmBOvT3hDFssaZXvPrlmI_IJ_AqhitXfdj8Nc2v0sdYI=",
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-5c6e8c62-a71b-49e0-97c5-71eef47d6a28",
+                          "name": "get_product_details",
+                          "response": {
+                            "name": "ACME NoiseBuds 200",
+                            "price": "$149",
+                            "features": [
+                              "ANC",
+                              "30h battery",
+                              "6-mic calls"
+                            ]
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                }
+              ]
+            },
+            "creation_timestamp": 1772162324.991744,
+            "rubrics": null,
+            "app_details": {
+              "agent_details": {
+                "simple_product_agent": {
+                  "name": "simple_product_agent",
+                  "instructions": "CRITICAL RULES (MUST FOLLOW):\n1) You MUST call exactly ONE tool before you answer.\n2) Do NOT answer from memory.\n3) get_product_details → for customer info\n4) INTERNAL TOOL (private): lookup_product_information\n- Use ONLY for: SKU, inventory\n- NEVER use this tool for customer-facing questions.\n\nUse the correct tool depending on the question.\n\nYou are an agent. Your internal name is \"simple_product_agent\".",
+                  "tool_declarations": [
+                    {
+                      "retrieval": null,
+                      "computer_use": null,
+                      "file_search": null,
+                      "code_execution": null,
+                      "enterprise_web_search": null,
+                      "function_declarations": [
+                        {
+                          "description": null,
+                          "name": "get_product_details",
+                          "parameters": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": {
+                              "product_id": {
+                                "additional_properties": null,
+                                "defs": null,
+                                "ref": null,
+                                "any_of": null,
+                                "default": null,
+                                "description": null,
+                                "enum": null,
+                                "example": null,
+                                "format": null,
+                                "items": null,
+                                "max_items": null,
+                                "max_length": null,
+                                "max_properties": null,
+                                "maximum": null,
+                                "min_items": null,
+                                "min_length": null,
+                                "min_properties": null,
+                                "minimum": null,
+                                "nullable": null,
+                                "pattern": null,
+                                "properties": null,
+                                "property_ordering": null,
+                                "required": null,
+                                "title": null,
+                                "type": "STRING"
+                              }
+                            },
+                            "property_ordering": null,
+                            "required": [
+                              "product_id"
+                            ],
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        },
+                        {
+                          "description": null,
+                          "name": "lookup_product_information",
+                          "parameters": {
+                            "additional_properties": null,
+                            "defs": null,
+                            "ref": null,
+                            "any_of": null,
+                            "default": null,
+                            "description": null,
+                            "enum": null,
+                            "example": null,
+                            "format": null,
+                            "items": null,
+                            "max_items": null,
+                            "max_length": null,
+                            "max_properties": null,
+                            "maximum": null,
+                            "min_items": null,
+                            "min_length": null,
+                            "min_properties": null,
+                            "minimum": null,
+                            "nullable": null,
+                            "pattern": null,
+                            "properties": {
+                              "product_id": {
+                                "additional_properties": null,
+                                "defs": null,
+                                "ref": null,
+                                "any_of": null,
+                                "default": null,
+                                "description": null,
+                                "enum": null,
+                                "example": null,
+                                "format": null,
+                                "items": null,
+                                "max_items": null,
+                                "max_length": null,
+                                "max_properties": null,
+                                "maximum": null,
+                                "min_items": null,
+                                "min_length": null,
+                                "min_properties": null,
+                                "minimum": null,
+                                "nullable": null,
+                                "pattern": null,
+                                "properties": null,
+                                "property_ordering": null,
+                                "required": null,
+                                "title": null,
+                                "type": "STRING"
+                              }
+                            },
+                            "property_ordering": null,
+                            "required": [
+                              "product_id"
+                            ],
+                            "title": null,
+                            "type": "OBJECT"
+                          },
+                          "parameters_json_schema": null,
+                          "response": null,
+                          "response_json_schema": null,
+                          "behavior": null
+                        }
+                      ],
+                      "google_maps": null,
+                      "google_search": null,
+                      "google_search_retrieval": null,
+                      "url_context": null
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "expected_invocation": {
+            "invocation_id": "e-fced5b33-9602-4c04-a16c-ba3d0f49a034",
+            "user_content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about acme-noisebuds",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "final_response": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "ACME NoiseBuds 200  are priced at $149 and feature Active Noise Cancellation (ANC), 30 hours of battery life, and 6-microphone calls. We currently have 42 units in inventory,",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "intermediate_data": {
+              "invocation_events": [
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-d0b603a5-2105-48d7-bd34-56385f87e805",
+                          "args": {
+                            "product_id": "acme-noisebuds"
+                          },
+                          "name": "lookup_product_information",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": "CrMDAb4-9vuuVM1iL8tVW_MzhLX5W4di-qRGh41l-TFDIlN-dJZUVOo1uOyH-JqQ-ojDVw7NZkNqtjBNURFEMBjbK6XdYV5gNHGFRMrcj0_Y2PSYv1Jdy3iyWPsm0ocMeI5kD2ogBzwJ4tYU8P76ALNU3iTATRUcKviPXBTtHJlgtomTx0CJ5sC1ewJbzzQBWmN2c_l6Cl-QuuEmYiNwr7BjLaDKrhWl0V8VO7y04WJUnEOLP3e8Fk-0w9phY080DXeAdl9jIe86Hy6FauV7VRGxQfijjyKHw5VZ-jdu_cdg3oZ2-Wdr7IjXPT7zaTs9pzPa21eJOVP4NWMGUwPglA_pDvwWnQiXaZk3JEfwtHijt-BSDZojHSTtxA5wveV68ODE7126BP-Birdu9lpB7IEwX8M0mBVU0Rr1rdI8Mh0yVSGjrvFzlWRSlEsMsvyjpN91C1yRgck3zGgGrVmesHBOzH9UAVEVKM9RR8zCTB7pl7RDAQARi9g2HjHSra7GUVIHYrT455nfAkUphdn8J61GwzPgZ9RRYXBJ44iT3AAgOVfde80sq-wSdx8mg1fKfGrZ31oN",
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-d0b603a5-2105-48d7-bd34-56385f87e805",
+                          "name": "lookup_product_information",
+                          "response": {
+                            "sku": "ACM-NB-200",
+                            "inventory": 42,
+                            "unit_cost": "$58"
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": {
+                          "id": "adk-940e9246-8e07-49f9-bf6e-963f0057a697",
+                          "args": {
+                            "product_id": "acme-noisebuds"
+                          },
+                          "name": "get_product_details",
+                          "partial_args": null,
+                          "will_continue": null
+                        },
+                        "function_response": null,
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": "CogCAb4-9vs0zyxGPlZ1MOusS3OXXPoAJJ0p3aySV0vVQYnJCRBEFGXHQsAes-J0J_Bv5KsKAAs1CurxmDG5KPH-93v1HwRP5Y9NfBWcsesY3egtLdCdbU05Sekd2zpP3m1J5SEnGqK5T6CLNAGpZbMGUjQ_viUpUP-0NizRuBUD6XctLG_Yuapiae9g01tMl7Jflh4BdQQHgHgKtR2_8_AhepW9oEujwNxwZBZdUYnYGfneg62nMI2BCyCRLVCEvBAMRRr98wJmFGy3F1s2irF_PBtWPjr5Mzlu6nRMTn2P3Uirb-aVZNkvm9qaWrbRvPBHeZzmsy4KAAzn5pWl4UfqrTlEbx7gXWqG",
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "model"
+                  }
+                },
+                {
+                  "author": "simple_product_agent",
+                  "content": {
+                    "parts": [
+                      {
+                        "media_resolution": null,
+                        "code_execution_result": null,
+                        "executable_code": null,
+                        "file_data": null,
+                        "function_call": null,
+                        "function_response": {
+                          "will_continue": null,
+                          "scheduling": null,
+                          "parts": null,
+                          "id": "adk-940e9246-8e07-49f9-bf6e-963f0057a697",
+                          "name": "get_product_details",
+                          "response": {
+                            "name": "ACME NoiseBuds 200",
+                            "price": "$149",
+                            "features": [
+                              "ANC",
+                              "30h battery",
+                              "6-mic calls"
+                            ]
+                          }
+                        },
+                        "inline_data": null,
+                        "text": null,
+                        "thought": null,
+                        "thought_signature": null,
+                        "video_metadata": null
+                      }
+                    ],
+                    "role": "user"
+                  }
+                }
+              ]
+            },
+            "creation_timestamp": 1772161938.874356,
+            "rubrics": null,
+            "app_details": null
+          },
+          "eval_metric_results": [
+            {
+              "metric_name": "tool_trajectory_avg_score",
+              "threshold": 1.0,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.0,
+              "eval_status": 2,
+              "details": {
+                "rubric_scores": null
+              }
+            },
+            {
+              "metric_name": "response_match_score",
+              "threshold": 0.7,
+              "criterion": null,
+              "custom_function_path": null,
+              "score": 0.830188679245283,
+              "eval_status": 1,
+              "details": {
+                "rubric_scores": null
+              }
+            }
+          ]
+        }
+      ],
+      "session_id": "___eval___session___4a44defe-30b9-431c-ae4c-f7fd61cccddd",
+      "session_details": {
+        "id": "___eval___session___4a44defe-30b9-431c-ae4c-f7fd61cccddd",
+        "app_name": "product_eval",
+        "user_id": "user",
+        "state": {
+          "__llm_request_key__": "9b1e2bc7-ae05-4047-ae08-8d810177cc12"
+        },
+        "events": [
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about acme-earbuds",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-e7f6984f-54b9-4741-ac80-342244b7e9d6",
+            "author": "user",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "efa71d7b-4e61-45a0-8957-cc5efd676d69",
+            "timestamp": 1772162320.718895
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": {
+                    "id": "adk-ef07ab83-0e60-49c3-b26c-c4ddc62ec9b3",
+                    "args": {
+                      "product_id": "acme-earbuds"
+                    },
+                    "name": "get_product_details",
+                    "partial_args": null,
+                    "will_continue": null
+                  },
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": null,
+                  "thought": null,
+                  "thought_signature": "Co8CAb4-9vtDfNVbbyOZku3BISzbKqrcCTWocoLJDz9PiIoCUmGmGlwshfxBhWpUqkPW9hroPaGgwyjZntyvhM_glAm3o9e15-GWuJSnu4Hmb9P724-kJnUojyqffSgz97lKddfdl9ZBoAMq5oeTGjeLdamwnvR9EO0wrmO46nWgtSzcxLIjEauBWE_RE3NUAjpJ2yhtTctZWfEBsxc6yBukllt6FZN1O8JNu3p85-8bzP7yG57vRmgMwEkLRLTNZ1FR7qn9peI4R6eBd0TTT9rlfuxgEepPT2lrBH4nOxja_dMZKi63xtEF-Awv_oaHJ-2DOzuuVhYfEJSZEjzydeAa9cFxaA1bEVcqdHrh-WzxBQ==",
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "1a254491-07ab-443b-b955-fc74fe8cb4ec"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 23,
+              "candidates_tokens_details": null,
+              "prompt_token_count": 188,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 188
+                }
+              ],
+              "thoughts_token_count": 59,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 270,
+              "traffic_type": null
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-e7f6984f-54b9-4741-ac80-342244b7e9d6",
+            "author": "simple_product_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "1a254491-07ab-443b-b955-fc74fe8cb4ec"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": [],
+            "branch": null,
+            "id": "79f48c48-c361-477f-8093-6cfcd483e658",
+            "timestamp": 1772162320.720128
+          },
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": {
+                    "will_continue": null,
+                    "scheduling": null,
+                    "parts": null,
+                    "id": "adk-ef07ab83-0e60-49c3-b26c-c4ddc62ec9b3",
+                    "name": "get_product_details",
+                    "response": {
+                      "error": "Not found"
+                    }
+                  },
+                  "inline_data": null,
+                  "text": null,
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-e7f6984f-54b9-4741-ac80-342244b7e9d6",
+            "author": "simple_product_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "fb3106a8-8aa4-496c-b62b-2cfe43dcf4dc",
+            "timestamp": 1772162321.722875
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I couldn't find any details for acme-earbuds. Please double check the product ID and try again.",
+                  "thought": null,
+                  "thought_signature": "CsECAb4-9vsePnH4G9UZVeJFre8RwJGp1VNaSFOrX3abJjXCljjIYUfZX8eitDJm0G-RHRHg7Bte7klJjlXTQqfBZ9o7ruuWAxMw-hy5fDZZnn12eNCFvwEAbYGKsmeh04J6uTbJCETIXW4uTIWdXm5fCz_0rfaR9Ehm5UoAHYoFNMAB-azMG3tDB7U6TJUVn_rLSdcZvUHEfkAB-TK6jniD5W8MterhsOkTBRb9m6D-W36QVYssvMkWFHD43TIxVdPGtxDzC1uHvwETOpcGihN1PyFM-fLEBQKBhKYYoKriIoqevpFqe5cVG2xN3JUJHkeuRYiAQkwU8GKJRlwQGQE3WdaJ_JTnlCE58CiPnLBFgX4qe8E5rjh_PdaNM2PsronYgQuxhLgsAhFeuYjQVeeld9gLehxK1XdL3RnRcTj5MpGQ",
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "1e3d9b8c-c26f-4328-9567-87d393507940"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 24,
+              "candidates_tokens_details": null,
+              "prompt_token_count": 229,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 229
+                }
+              ],
+              "thoughts_token_count": 77,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 330,
+              "traffic_type": null
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-e7f6984f-54b9-4741-ac80-342244b7e9d6",
+            "author": "simple_product_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "1e3d9b8c-c26f-4328-9567-87d393507940"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "a268dac5-c3e1-48be-9d55-68fca7942ec5",
+            "timestamp": 1772162321.730333
+          },
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about ACME NoiseBuds",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-186cd7ae-89b8-4167-be51-3f92ce1e747c",
+            "author": "user",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "20734848-7476-41bb-a77b-65883c6f9951",
+            "timestamp": 1772162322.62083
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": {
+                    "id": "adk-acedb244-abb8-4ef5-9ba1-cd20d779677b",
+                    "args": {
+                      "product_id": "ACME NoiseBuds"
+                    },
+                    "name": "get_product_details",
+                    "partial_args": null,
+                    "will_continue": null
+                  },
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": null,
+                  "thought": null,
+                  "thought_signature": "CvoBAb4-9vsfeOw6I1gMPvy_8F3Zvle530vMv0XBsTsLOo-mk5LP3Np3XRTlmxMwrY5Dhc8NLK8GyvJlUt86sEuW3s2NishD0tU_qJ0Lvs6KxjU9mNdxYAiKalB_8mW5ROkm8_q-ZkFHORvQoabS675HaCNM-xm2AMu6k0B3ENz2aE-tstOntiNiflBDt36tsokx3F5MmkXLyuZt7AHrg0h1Wng_AKk2wCZzKo5vFA66GghqaIYNEiskzZBsZI_DT8yu44MIsPYc8aW0F3F9yZrQAKhQNamgg0RrfzoSVZbdrgnaHHpE58U62K3vY1eAit3XTGh2nWlzRfweRg==",
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "a3df2d22-e35f-486e-bf35-37660d5a1992"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 23,
+              "candidates_tokens_details": null,
+              "prompt_token_count": 263,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 263
+                }
+              ],
+              "thoughts_token_count": 51,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 337,
+              "traffic_type": null
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-186cd7ae-89b8-4167-be51-3f92ce1e747c",
+            "author": "simple_product_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "a3df2d22-e35f-486e-bf35-37660d5a1992"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": [],
+            "branch": null,
+            "id": "d0b3349b-2ed4-4963-832e-36b8da0a36c3",
+            "timestamp": 1772162322.625833
+          },
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": {
+                    "will_continue": null,
+                    "scheduling": null,
+                    "parts": null,
+                    "id": "adk-acedb244-abb8-4ef5-9ba1-cd20d779677b",
+                    "name": "get_product_details",
+                    "response": {
+                      "error": "Not found"
+                    }
+                  },
+                  "inline_data": null,
+                  "text": null,
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-186cd7ae-89b8-4167-be51-3f92ce1e747c",
+            "author": "simple_product_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "f7dd1935-3a6a-47fe-9c30-b7b1c1ef11c7",
+            "timestamp": 1772162323.437877
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "I couldn't find any details for ACME NoiseBuds. Please double check the product ID and try again.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "49e0ba4b-0e48-42c4-a6e4-6b6f01aa1c03"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 24,
+              "candidates_tokens_details": null,
+              "prompt_token_count": 304,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 304
+                }
+              ],
+              "thoughts_token_count": null,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 328,
+              "traffic_type": null
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-186cd7ae-89b8-4167-be51-3f92ce1e747c",
+            "author": "simple_product_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "49e0ba4b-0e48-42c4-a6e4-6b6f01aa1c03"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "3f47ea91-3f7d-4820-be1f-d9575d829d36",
+            "timestamp": 1772162323.446307
+          },
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "tell me about acme-noisebuds",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-95477435-222f-4e27-a008-0d47bd633a24",
+            "author": "user",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "ce3c65ef-fefd-445b-9065-f83dbd7d98cc",
+            "timestamp": 1772162324.146053
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": {
+                    "id": "adk-5c6e8c62-a71b-49e0-97c5-71eef47d6a28",
+                    "args": {
+                      "product_id": "acme-noisebuds"
+                    },
+                    "name": "get_product_details",
+                    "partial_args": null,
+                    "will_continue": null
+                  },
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": null,
+                  "thought": null,
+                  "thought_signature": "CtQBAb4-9vtmNbTYdpdIstppf9YRC6gRf7nDUAqLaDVLTEC8-ww_ZUsiVwurOkpLIGR-z_gD997oUjGR9dqa0u7ooDx3jT2CZOJJcOVFcZXIA9gz6RysweaG-3kNKieLEvdaowmy1JRnbPKsk0jBsx-68hPhy1fpEVceerzLAxJeVuoju3-HIVaZwWUp0qmoK1Qu91Lf2ddV5j_QLCJCZMNCGGoa3UyhKDoFMLS8GZ9xo5pRFTTNmBOvT3hDFssaZXvPrlmI_IJ_AqhitXfdj8Nc2v0sdYI=",
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "1d510735-b819-47d0-9f97-061788bf573f"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 23,
+              "candidates_tokens_details": null,
+              "prompt_token_count": 338,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 338
+                }
+              ],
+              "thoughts_token_count": 46,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 407,
+              "traffic_type": null
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-95477435-222f-4e27-a008-0d47bd633a24",
+            "author": "simple_product_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "1d510735-b819-47d0-9f97-061788bf573f"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": [],
+            "branch": null,
+            "id": "55fa40e2-e69e-4d63-a2a6-e85bd4fc8789",
+            "timestamp": 1772162324.152065
+          },
+          {
+            "model_version": null,
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": {
+                    "will_continue": null,
+                    "scheduling": null,
+                    "parts": null,
+                    "id": "adk-5c6e8c62-a71b-49e0-97c5-71eef47d6a28",
+                    "name": "get_product_details",
+                    "response": {
+                      "name": "ACME NoiseBuds 200",
+                      "price": "$149",
+                      "features": [
+                        "ANC",
+                        "30h battery",
+                        "6-mic calls"
+                      ]
+                    }
+                  },
+                  "inline_data": null,
+                  "text": null,
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "user"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": null,
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": null,
+            "usage_metadata": null,
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-95477435-222f-4e27-a008-0d47bd633a24",
+            "author": "simple_product_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {},
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "8be6b33a-1ef3-4d89-a1de-82f9927b1453",
+            "timestamp": 1772162324.992273
+          },
+          {
+            "model_version": "gemini-2.5-flash",
+            "content": {
+              "parts": [
+                {
+                  "media_resolution": null,
+                  "code_execution_result": null,
+                  "executable_code": null,
+                  "file_data": null,
+                  "function_call": null,
+                  "function_response": null,
+                  "inline_data": null,
+                  "text": "The ACME NoiseBuds 200 are priced at $149 and feature Active Noise Cancellation (ANC), 30 hours of battery life, and 6-microphone call technology.",
+                  "thought": null,
+                  "thought_signature": null,
+                  "video_metadata": null
+                }
+              ],
+              "role": "model"
+            },
+            "grounding_metadata": null,
+            "partial": null,
+            "turn_complete": null,
+            "finish_reason": "STOP",
+            "error_code": null,
+            "error_message": null,
+            "interrupted": null,
+            "custom_metadata": {
+              "__llm_request_key__": "9b1e2bc7-ae05-4047-ae08-8d810177cc12"
+            },
+            "usage_metadata": {
+              "cache_tokens_details": null,
+              "cached_content_token_count": null,
+              "candidates_token_count": 41,
+              "candidates_tokens_details": null,
+              "prompt_token_count": 412,
+              "prompt_tokens_details": [
+                {
+                  "modality": "TEXT",
+                  "token_count": 412
+                }
+              ],
+              "thoughts_token_count": null,
+              "tool_use_prompt_token_count": null,
+              "tool_use_prompt_tokens_details": null,
+              "total_token_count": 453,
+              "traffic_type": null
+            },
+            "live_session_resumption_update": null,
+            "input_transcription": null,
+            "output_transcription": null,
+            "avg_logprobs": null,
+            "logprobs_result": null,
+            "cache_metadata": null,
+            "citation_metadata": null,
+            "interaction_id": null,
+            "invocation_id": "e-95477435-222f-4e27-a008-0d47bd633a24",
+            "author": "simple_product_agent",
+            "actions": {
+              "skip_summarization": null,
+              "state_delta": {
+                "__llm_request_key__": "9b1e2bc7-ae05-4047-ae08-8d810177cc12"
+              },
+              "artifact_delta": {},
+              "transfer_to_agent": null,
+              "escalate": null,
+              "requested_auth_configs": {},
+              "requested_tool_confirmations": {},
+              "compaction": null,
+              "end_of_agent": null,
+              "agent_state": null,
+              "rewind_before_invocation_id": null
+            },
+            "long_running_tool_ids": null,
+            "branch": null,
+            "id": "55f75ed5-37a3-4b19-b83d-a211a36d3569",
+            "timestamp": 1772162324.996838
+          }
+        ],
+        "last_update_time": 1772162324.996838
+      },
+      "user_id": "user"
+    }
+  ],
+  "creation_timestamp": 1772162325.743246
+}

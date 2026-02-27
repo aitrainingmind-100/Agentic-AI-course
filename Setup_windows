@@ -195,3 +195,7 @@ setx HUGGINGFACEHUB_API_TOKEN hf_xxxxxxxxx
 adk create folder_name/agent_name 
 
 adk run agent_name 
+
+netstat -ano | findstr :8000
+
+taskkill /PID 12345 /F

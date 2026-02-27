@@ -58,7 +58,7 @@ dependencies = [
     "run>=0.3",
     "langchain-agent>=0.1.1",
     "langchain-mcp-adapters>=0.2.1",
-    "google-adk>=1.25.1",
+    "google-adk[eval]>=1.25.1",
     "crewai>=1.6.1",
 ]
 
