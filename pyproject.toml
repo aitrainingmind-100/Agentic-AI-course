@@ -61,6 +61,7 @@ dependencies = [
     "google-adk[eval]>=1.25.1",
     "crewai>=1.6.1",
     "grandalf>=0.8",
+    "fastapi>=0.129.0",
 ]
 
 [dependency-groups]
