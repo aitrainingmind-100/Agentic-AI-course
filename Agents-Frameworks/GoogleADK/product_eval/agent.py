@@ -32,9 +32,10 @@ root_agent = Agent(
         "1) You MUST call exactly ONE tool before you answer.\n"
         "2) Do NOT answer from memory.\n"
         "3) get_product_details → for customer info\n"
-        "4) INTERNAL TOOL (private): lookup_product_information\n"
-   # "- Use ONLY for: SKU, inventory\n"
-    "- NEVER use this tool for customer-facing questions.\n\n"
+        "4) Get lookup_product_information\n"
+    #"- Use ONLY for: SKU, inventory\n"
+   #
+   #  "- NEVER use this tool for customer-facing questions.\n\n"
         "Use the correct tool depending on the question."
     ),
     tools=[get_product_details, lookup_product_information],

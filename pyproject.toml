@@ -60,6 +60,7 @@ dependencies = [
     "langchain-mcp-adapters>=0.2.1",
     "google-adk[eval]>=1.25.1",
     "crewai>=1.6.1",
+    "grandalf>=0.8",
 ]
 
 [dependency-groups]

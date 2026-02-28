@@ -1,0 +1,82 @@
+{
+  "eval_set_id": "evalset01bc84",
+  "name": "evalset01bc84",
+  "eval_cases": [
+    {
+      "eval_id": "case5e3b64",
+      "conversation": [
+        {
+          "invocation_id": "e-403af8f7-4916-42c5-a83c-5c3ca385c009",
+          "user_content": {
+            "parts": [
+              {
+                "text": "tel me about acme-noisebuds"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "The ACME NoiseBuds 200 are priced at $149 and feature Active Noise Cancellation (ANC), 30 hours of battery life, and 6-microphone calls."
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {
+            "invocation_events": [
+              {
+                "author": "simple_product_agent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_call": {
+                        "id": "adk-6b20f21e-8f0a-4b79-aae7-89699059bddc",
+                        "args": {
+                          "product_id": "acme-noisebuds"
+                        },
+                        "name": "get_product_details"
+                      },
+                      "thought_signature": "CpsDAb4-9vu-4ZX5mOkO5SdmvQb5fNAfpUIIFKUf8ZsAXrF4wwO4JWq7Hb298yHzPhKUG_Lo7V8AQrs1FpPjgxvmlnnKPVTzM6x3Xo62YYBvdPEa6yrhnCHL6R7Z-wXbtP-za1watcqLPz4FIkNUtUD1pTkPejUpJwPo3txxCRmbFkPyDFbqol__OKJScbLR4yb1xQZR30g3xNQHl9bqwtzltAAAGuA8tSDZJVFk_Lt_cl3tN3Ongj0pjsS9xbOqChKfOLXbCNe54A0IuroMYPUAoWX1DxRLV1TD-a_rpAIbOELEraIZlmFdysTLyhrepeCeqzgIYDTIz-oH1gBsPq-04_IMyTvRkErFKCyqnBgx3PFEqqMEw3dOwaWTX24KhnovsMVfW2BCeIE0mip3q3YsrOK5BB02WuUx5EBrIHnKbSPhaQJolFRS1rFwymeNnVm2UTlbUBw0Bh0cspJU62xVFCFC5DaD9jAKFjO51aszpOp22U88rHmNSrF4mBRg5t77VOc7Fp-R4L-IWYOXZ_3dM5jXQYTh0FVXAJjl"
+                    }
+                  ],
+                  "role": "model"
+                }
+              },
+              {
+                "author": "simple_product_agent",
+                "content": {
+                  "parts": [
+                    {
+                      "function_response": {
+                        "id": "adk-6b20f21e-8f0a-4b79-aae7-89699059bddc",
+                        "name": "get_product_details",
+                        "response": {
+                          "name": "ACME NoiseBuds 200",
+                          "price": "$149",
+                          "features": [
+                            "ANC",
+                            "30h battery",
+                            "6-mic calls"
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "role": "user"
+                }
+              }
+            ]
+          },
+          "creation_timestamp": 1772211325.678392
+        }
+      ],
+      "session_input": {
+        "app_name": "product_eval",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1772211343.876823
+    }
+  ],
+  "creation_timestamp": 1772211339.806952
+}
